@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 export default function Hello() {
 	return (
-		<section className='hello-section'>
+		<section className='helloSection'>
 			<div>
 				<h1>MONIQUE RICO CINATL</h1>
 				<h2>Developer. Creator. Collaborator.</h2>
