@@ -2,10 +2,9 @@ import React from 'react';
 
 export default function Projects() {
 	return (
-		<section className='projectsSection'>
+		<section className='projects section'>
 			<div>
-				<h3>Hi there! I'm Monique.</h3>
-				<p>I am a full stack web developer...</p>
+				<h3>NEED TO ADD PROJECTS HERE</h3>
 			</div>
 		</section>
 	)

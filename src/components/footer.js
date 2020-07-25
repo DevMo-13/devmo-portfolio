@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Footer() {
 	return (
-		<section className='footerSection'>
-			<div className='social'>
+		<section className='footer section'>
+			<div className='social' align='center'>
 				<p>
 					<a className='github' href='https://github.com/DevMo-13' target='_blank'>
 						<svg width='50' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512' xmlspace='preserve'>
@@ -51,18 +51,16 @@ export default function Footer() {
 						</svg>	
 					</a>
 					<a className='email' href='mailto:moniquecinatl@gmail.com' target='_blank'>
-						<svg width='50' version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512' xmlspace='preserve'>
-							<path fill='#225588' class='st0' d='M485.7,80.7H26.3C11.8,80.7,0,92.5,0,106.9v288.8C0,410.2,11.8,422,26.3,422h459.5
-							c14.4,0,26.3-11.8,26.3-26.3V106.9C512,92.5,500.2,80.7,485.7,80.7z M475.9,100.4L271.1,254c-3.7,2.8-9.3,4.6-15.1,4.5
-							c-5.8,0-11.4-1.7-15.1-4.5L36.1,100.4H475.9z M366.5,264.1l111.6,137.8c0.1,0.1,0.2,0.2,0.4,0.4H33.5c0.1-0.1,0.3-0.2,0.4-0.4
-							l111.6-137.8c3.4-4.2,2.8-10.4-1.5-13.9c-4.2-3.4-10.4-2.8-13.8,1.5L19.7,388.2V112.7l209.4,157c7.9,5.9,17.4,8.4,26.9,8.5
-							c9.5,0,19-2.6,26.9-8.5l209.4-157v275.5L381.8,251.7c-3.4-4.2-9.6-4.9-13.8-1.5C363.7,253.7,363.1,259.9,366.5,264.1z'/>
+						<svg width='50' version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" xmlspace="preserve">
+							<path fill='#225588' d="M467,61H45C20.2,61,0,81.2,0,106v300c0,24.7,20.1,45,45,45h422c24.7,0,45-20.1,45-45V106C512,81.3,491.9,61,467,61z
+								M460.8,91L257,294.8L51.4,91H460.8z M30,399.8V112.1l144.5,143.2L30,399.8z M51.2,421l144.6-144.6l50.7,50.2
+								c5.9,5.8,15.3,5.8,21.2,0l49.4-49.4L460.8,421H51.2z M482,399.8L338.2,256L482,112.2V399.8z"/>
 						</svg>
 					</a>
 				</p>
 			</div>
-			<div align='center' className='copyright'>			
-				<p align='center'>HANDCRAFTED BY MONIQUE CINATL &copy; 2020</p>
+			<div className='copyright' align='center'>			
+				<p>HANDCRAFTED BY MONIQUE CINATL &copy; 2020</p>
 				<img alt='logo' src='favicon.ico' width='35'/>
 			</div>
 		</section>
