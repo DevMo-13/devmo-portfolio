@@ -5,4 +5,4 @@
   	MONIQUE'S PORTFOLIO
 </h1>
 <p align='center'>Hi there! This is my portfolio website developed using Gatsby.js.<p>
-<p align='center'>View the live site at: moniquecinatl.com.<p>
+<p align='center'>View the live site at: moniquecinatl.com<p>
