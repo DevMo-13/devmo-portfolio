@@ -1,0 +1,307 @@
+{
+	"projects": [
+		{
+			"id": "1",
+			"projName": "RANDOM QUOTE GENERATOR",
+			"description": "This project uses JavaScript to display a random quote every 7.5 seconds and changes the background color of the page when a new quote is displayed.",
+			"technologies": [
+				"JavaScript",
+				"HTML/CSS"
+			],
+			"githubLink": "https://github.com/DevMo-13/random-quote-generator",
+			"liveLink": "https://devmo-13.github.io/random-quote-generator/",
+			"mainImage": {
+				"src": "/static/random-quote-generator/quote-main.png",
+				"path": "quote-main.png"
+			},
+			"otherImage1": {
+				"src": "/static/random-quote-generator/quote1.png",
+				"path": "quote1.png"
+			},
+			"otherImage2": {
+				"src": "/static/random-quote-generator/quote2.png",
+				"path": "quote2.png"
+			},
+			"otherImage3": {
+				"src": "/static/random-quote-generator/quote3.png",
+				"path": "quote3.png"
+			}
+		},
+		{
+			"id": "2",
+			"projName": "STUDENT LIST PAGINATOR",
+			"description": "In this project, I used the principle of progressive enhancement to enhance usability of a web page displaying student entries. The page still displays the students' names even with JavaScript disabled, but it is much improved (enhanced) with the JavaScript programming I added. I have also programmed the pagination to work with a list of any number of students, so it is flexible and able to respond to lists of different lengths.",
+			"technologies": [
+				"Progressive Enhancement",
+				"JavaScript",
+				"HTML/CSS"
+			],
+			"githubLink": "https://github.com/DevMo-13/list-pagination-and-filtering",
+			"liveLink": "https://devmo-13.github.io/list-pagination-and-filtering/",
+			"mainImage": {
+				"src": "/static/student-list-paginator/pagination-main.png",
+				"path": "pagination-main.png"
+			},
+			"otherImage1": {
+				"src": "/static/student-list-paginator/pagination1.png",
+				"path": "pagination1.png"
+			},
+			"otherImage2": {
+				"src": "/static/student-list-paginator/pagination2.png",
+				"path": "pagination2.png"
+			},
+			"otherImage3": {
+				"src": "/static/student-list-paginator/pagination3.png",
+				"path": "pagination3.png"
+			}
+		},
+		{
+			"id": "3",
+			"projName": "CONFERENCE REGISTRATION FORM",
+			"description": "This project uses JavaScript to enhance an interactive registration form for a fictional conference called FullStack Conf.",
+			"technologies": [
+				"JavaScript",
+				"HTML/CSS"
+			],
+			"githubLink": "https://github.com/DevMo-13/interactive-form",
+			"liveLink": "https://devmo-13.github.io/interactive-form/",
+			"mainImage": {
+				"src": "/static/interactice-registration-form/form-main.png",
+				"path": "form-main.png"
+			},
+			"otherImage1": {
+				"src": "/static/interactice-registration-form/form1.png",
+				"path": "form1.png"
+			},
+			"otherImage2": {
+				"src": "/static/interactice-registration-form/form2.png",
+				"path": "form2.png"
+			},
+			"otherImage3": {
+				"src": "/static/interactice-registration-form/form3.png",
+				"path": "form3.png"
+			}
+		},
+		{
+			"id": "4",
+			"projName": "PHRASE HUNTER GAME APP",
+			"description": "In this project, I created a browser-based, word guessing game: Phrase Hunter. I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player then tries to guess.",
+			"technologies": [
+				"Object-Oriented Programming",
+				"JavaScript",
+				"HTML/CSS"
+			],
+			"githubLink": "https://github.com/DevMo-13/oop-game-show-app",
+			"liveLink": "https://devmo-13.github.io/oop-game-show-app/",
+			"mainImage": {
+				"src": "/static/oop-phrase-hunter/phrase-main.png",
+				"path": "phrase-main.png"
+			},
+			"otherImage1": {
+				"src": "/static/oop-phrase-hunter/phrase1.png",
+				"path": "phrase1.png"
+			},
+			"otherImage2": {
+				"src": "/static/oop-phrase-hunter/phrase2.png",
+				"path": "phrase2.png"
+			},
+			"otherImage3": {
+				"src": "/static/oop-phrase-hunter/phrase3.png",
+				"path": "phrase3.png"
+			}
+		},
+		{
+			"id": "5",
+			"projName": "EMPLOYEE DIRECTORY",
+			"description": "For this project, I built an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. I used the Random User Generator API (https://randomuser.me/) to grab information for 12 random “employees,” and used that data to build a prototype for an Awesome Startup employee directory. This directory has employees listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
+			"technologies": [
+				"Public API",
+				"JavaScript",
+				"HTML/CSS"
+			],
+			"githubLink": "https://github.com/DevMo-13/public-api-requests",
+			"liveLink": "https://devmo-13.github.io/public-api-requests/",
+			"mainImage": {
+				"src": "/static/eployee-directory-public-api-requests/directory-main.png",
+				"path": "directory-main.png"
+			},
+			"otherImage1": {
+				"src": "/static/eployee-directory-public-api-requests/directory1.png",
+				"path": "directory1.png"
+			},
+			"otherImage2": {
+				"src": "/static/eployee-directory-public-api-requests/directory2.png",
+				"path": "directory2.png"
+			},
+			"otherImage3": {
+				"src": "/static/eployee-directory-public-api-requests/directory3.png",
+				"path": "directory3.png"
+			}
+		},
+		{
+			"id": "6",
+			"projName": "TREEHOUSE PORTFOLIO SITE",
+			"description": "This project utilizes Node.js, Express, and Pug to create a portfolio site to showcase the projects I've built so far in my techdegree. The site contains a modern landing page, an about page with my contact info, and a series of project pages to show off and detail my first 5 projects from the Treehouse FSJS techdegree.",
+			"technologies": [
+				"Node.js",
+				"Express.js",
+				"Pug",
+				"JavaScript",
+				"HTML/CSS"
+			],
+			"githubLink": "https://github.com/DevMo-13/static-node.js-and-express-site",
+			"liveLink": "",
+			"mainImage": {
+				"src": "/static/node-express-portfolio/portfolio-main.png",
+				"path": "portfolio-main.png"
+			},
+			"otherImage1": {
+				"src": "/static/node-express-portfolio/portfolio1.png",
+				"path": "portfolio1.png"
+			},
+			"otherImage2": {
+				"src": "/static/node-express-portfolio/portfolio2.png",
+				"path": "portfolio2.png"
+			},
+			"otherImage3": {
+				"src": "/static/node-express-portfolio/portfolio3.png",
+				"path": "portfolio3.png"
+			}
+		},
+		{
+			"id": "7",
+			"projName": "REACT GALLERY APP",
+			"description": "This project uses the React library to create an image gallery app.",
+			"technologies": [
+				"React",
+				"Fetch API",
+				"JavaScript",
+				"HTML/CSS"
+			],
+			"githubLink": "https://github.com/DevMo-13/react-gallery-app",
+			"liveLink": "",
+			"mainImage": {
+				"src": "/static/react-gallery-app/gallery-main.png",
+				"path": "gallery-main.png"
+			},
+			"otherImage1": {
+				"src": "/static/react-gallery-app/gallery1.png",
+				"path": "gallery1.png"
+			},
+			"otherImage2": {
+				"src": "/static/react-gallery-app/gallery2.png",
+				"path": "gallery2.png"
+			},
+			"otherImage3": {
+				"src": "/static/react-gallery-app/gallery3.png",
+				"path": "gallery3.png"
+			}
+		},
+		{
+			"id": "8",
+			"projName": "LIBRARY DATABASE MANAGER",
+			"description": "This project uses using JavaScript, Node.js, Express, Pug, and the SQL ORM Sequelize to implement a dynamic web application that manages a library's collection of books. The web application includes pages to list, add, update, and delete books from the library's database.",
+			"technologies": [
+				"Node.js",
+				"Express.js",
+				"Sequelize",
+				"Pug",
+				"JavaScript",
+				"HTML/CSS"
+			],
+			"githubLink": "https://github.com/DevMo-13/sql-library-manager",
+			"liveLink": "",
+			"mainImage": {
+				"src": "/static/sql-library-db-manager/lib-db-main.png",
+				"path": "lib-db-main.png"
+			},
+			"otherImage1": {
+				"src": "/static/sql-library-db-manager/lib-db1.png",
+				"path": "lib-db1.png"
+			},
+			"otherImage2": {
+				"src": "/static/sql-library-db-manager/lib-db2.png",
+				"path": "lib-db2.png"
+			},
+			"otherImage3": {
+				"src": "/static/sql-library-db-manager/lib-db3.png",
+				"path": "lib-db3.png"
+			}
+		},
+		{
+			"id": "9",
+			"projName": "SCHOOL DATABASE - REST API",
+			"description": "In this project, I have created a REST API using Express. The API provides a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, as well as adding, updating, and deleting courses in the database. This project also requires users to create an account and log-in to make changes to the database.",
+			"technologies": [
+				"Node.js",
+				"Express.js",
+				"Sequelize",
+				"REST API",
+				"JavaScript",
+				"HTML/CSS"
+			],
+			"githubLink": "https://github.com/DevMo-13/rest-api",
+			"liveLink": "",
+			"mainImage": {
+				"src": "/static/school-db-rest-api/postman-main.png",
+				"path": "postman-main.png"
+			},
+			"otherImage1": {
+				"src": "/static/school-db-rest-api/postman1.png",
+				"path": "postman1.png"
+			},
+			"otherImage2": {
+				"src": "/static/school-db-rest-api/postman2.png",
+				"path": "postman2.png"
+			},
+			"otherImage3": {
+				"src": "/static/school-db-rest-api/postman3.png",
+				"path": "postman3.png"
+			}
+		},
+		{
+			"id": "10",
+			"projName": "SCHOOL DATABASE - WITH REACT AND REST API",
+			"description": "In this project, I used my knowledge of React, JSX, React Router, React Context API, and Create React App to create a client for the school database REST API I created in another project. The full stack application provides a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating and deleting courses in the database. In addition, the project requires users to create an account and sign in to make changes to the database.",
+			"technologies": [
+				"React",
+				"Node.js",
+				"Express.js",
+				"Sequelize",
+				"REST API",
+				"JavaScript",
+				"HTML/CSS"
+			],
+			"githubLink": "https://github.com/DevMo-13/full-stack-app-with-react-and-rest-api",
+			"liveLink": "",
+			"mainImage": {
+				"src": "/static/school-db-react-plus-api/app-main.png",
+				"path": "app-main.png"
+			},
+			"otherImage1": {
+				"src": "/static/school-db-react-plus-api/app1.png",
+				"path": "app1.png"
+			},
+			"otherImage2": {
+				"src": "/static/school-db-react-plus-api/app2.png",
+				"path": "app2.png"
+			},
+			"otherImage3": {
+				"src": "/static/school-db-react-plus-api/app3.png",
+				"path": "app3.png"
+			},
+			"otherImage4": {
+				"src": "/static/school-db-react-plus-api/app4.png",
+				"path": "app4.png"
+			},
+			"otherImage5": {
+				"src": "/static/school-db-react-plus-api/app5.png",
+				"path": "app5.png"
+			},
+			"otherImage6": {
+				"src": "/static/school-db-react-plus-api/app6.png",
+				"path": "app6.png"
+			}
+		}
+	]
+}

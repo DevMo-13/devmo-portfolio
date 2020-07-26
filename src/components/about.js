@@ -4,7 +4,7 @@ export default function About() {
 	return (
 		<section className='about section'>
 			<div>
-				<img alt='profile picture' src='profile-pic2.jpg' width='1000'/>
+				<img alt='profile picture' src='profile-pic2.jpg' width='50%'/>
 			</div>
 			<div>
 				<h3>Hi there! I'm Monique.</h3>
