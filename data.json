@@ -12,19 +12,23 @@
 			"liveLink": "https://devmo-13.github.io/random-quote-generator/",
 			"mainImage": {
 				"src": "/static/random-quote-generator/quote-main.png",
-				"path": "quote-main.png"
+				"path": "quote-main.png",
+				"alt": "project example - random qoute"
 			},
 			"otherImage1": {
 				"src": "/static/random-quote-generator/quote1.png",
-				"path": "quote1.png"
+				"path": "quote1.png",
+				"alt": "project example - random qoute"
 			},
 			"otherImage2": {
 				"src": "/static/random-quote-generator/quote2.png",
-				"path": "quote2.png"
+				"path": "quote2.png",
+				"alt": "project example - random qoute"
 			},
 			"otherImage3": {
 				"src": "/static/random-quote-generator/quote3.png",
-				"path": "quote3.png"
+				"path": "quote3.png",
+				"alt": "project example - random qoute"
 			}
 		},
 		{
@@ -40,19 +44,23 @@
 			"liveLink": "https://devmo-13.github.io/list-pagination-and-filtering/",
 			"mainImage": {
 				"src": "/static/student-list-paginator/pagination-main.png",
-				"path": "pagination-main.png"
+				"path": "pagination-main.png",
+				"alt": "project example - pagination"
 			},
 			"otherImage1": {
 				"src": "/static/student-list-paginator/pagination1.png",
-				"path": "pagination1.png"
+				"path": "pagination1.png",
+				"alt": "project example - pagination"
 			},
 			"otherImage2": {
 				"src": "/static/student-list-paginator/pagination2.png",
-				"path": "pagination2.png"
+				"path": "pagination2.png",
+				"alt": "project example - pagination"
 			},
 			"otherImage3": {
 				"src": "/static/student-list-paginator/pagination3.png",
-				"path": "pagination3.png"
+				"path": "pagination3.png",
+				"alt": "project example - pagination"
 			}
 		},
 		{
@@ -67,19 +75,23 @@
 			"liveLink": "https://devmo-13.github.io/interactive-form/",
 			"mainImage": {
 				"src": "/static/interactice-registration-form/form-main.png",
-				"path": "form-main.png"
+				"path": "form-main.png",
+				"alt": "project example - form"
 			},
 			"otherImage1": {
 				"src": "/static/interactice-registration-form/form1.png",
-				"path": "form1.png"
+				"path": "form1.png",
+				"alt": "project example - form"
 			},
 			"otherImage2": {
 				"src": "/static/interactice-registration-form/form2.png",
-				"path": "form2.png"
+				"path": "form2.png",
+				"alt": "project example - form"
 			},
 			"otherImage3": {
 				"src": "/static/interactice-registration-form/form3.png",
-				"path": "form3.png"
+				"path": "form3.png",
+				"alt": "project example - form"
 			}
 		},
 		{
@@ -95,19 +107,23 @@
 			"liveLink": "https://devmo-13.github.io/oop-game-show-app/",
 			"mainImage": {
 				"src": "/static/oop-phrase-hunter/phrase-main.png",
-				"path": "phrase-main.png"
+				"path": "phrase-main.png",
+				"alt": "project example - phrase game"
 			},
 			"otherImage1": {
 				"src": "/static/oop-phrase-hunter/phrase1.png",
-				"path": "phrase1.png"
+				"path": "phrase1.png",
+				"alt": "project example - phrase game"
 			},
 			"otherImage2": {
 				"src": "/static/oop-phrase-hunter/phrase2.png",
-				"path": "phrase2.png"
+				"path": "phrase2.png",
+				"alt": "project example - phrase game"
 			},
 			"otherImage3": {
 				"src": "/static/oop-phrase-hunter/phrase3.png",
-				"path": "phrase3.png"
+				"path": "phrase3.png",
+				"alt": "project example - phrase game"
 			}
 		},
 		{
@@ -123,19 +139,23 @@
 			"liveLink": "https://devmo-13.github.io/public-api-requests/",
 			"mainImage": {
 				"src": "/static/eployee-directory-public-api-requests/directory-main.png",
-				"path": "directory-main.png"
+				"path": "directory-main.png",
+				"alt": "project example - directory"
 			},
 			"otherImage1": {
 				"src": "/static/eployee-directory-public-api-requests/directory1.png",
-				"path": "directory1.png"
+				"path": "directory1.png",
+				"alt": "project example - directory"
 			},
 			"otherImage2": {
 				"src": "/static/eployee-directory-public-api-requests/directory2.png",
-				"path": "directory2.png"
+				"path": "directory2.png",
+				"alt": "project example - directory"
 			},
 			"otherImage3": {
 				"src": "/static/eployee-directory-public-api-requests/directory3.png",
-				"path": "directory3.png"
+				"path": "directory3.png",
+				"alt": "project example - directory"
 			}
 		},
 		{
@@ -153,19 +173,23 @@
 			"liveLink": "",
 			"mainImage": {
 				"src": "/static/node-express-portfolio/portfolio-main.png",
-				"path": "portfolio-main.png"
+				"path": "portfolio-main.png",
+				"alt": "project example - portfolio"
 			},
 			"otherImage1": {
 				"src": "/static/node-express-portfolio/portfolio1.png",
-				"path": "portfolio1.png"
+				"path": "portfolio1.png",
+				"alt": "project example - portfolio"
 			},
 			"otherImage2": {
 				"src": "/static/node-express-portfolio/portfolio2.png",
-				"path": "portfolio2.png"
+				"path": "portfolio2.png",
+				"alt": "project example - portfolio"
 			},
 			"otherImage3": {
 				"src": "/static/node-express-portfolio/portfolio3.png",
-				"path": "portfolio3.png"
+				"path": "portfolio3.png",
+				"alt": "project example - portfolio"
 			}
 		},
 		{
@@ -182,19 +206,23 @@
 			"liveLink": "",
 			"mainImage": {
 				"src": "/static/react-gallery-app/gallery-main.png",
-				"path": "gallery-main.png"
+				"path": "gallery-main.png",
+				"alt": "project example - gallery"
 			},
 			"otherImage1": {
 				"src": "/static/react-gallery-app/gallery1.png",
-				"path": "gallery1.png"
+				"path": "gallery1.png",
+				"alt": "project example - gallery"
 			},
 			"otherImage2": {
 				"src": "/static/react-gallery-app/gallery2.png",
-				"path": "gallery2.png"
+				"path": "gallery2.png",
+				"alt": "project example - gallery"
 			},
 			"otherImage3": {
 				"src": "/static/react-gallery-app/gallery3.png",
-				"path": "gallery3.png"
+				"path": "gallery3.png",
+				"alt": "project example - gallery"
 			}
 		},
 		{
@@ -213,19 +241,23 @@
 			"liveLink": "",
 			"mainImage": {
 				"src": "/static/sql-library-db-manager/lib-db-main.png",
-				"path": "lib-db-main.png"
+				"path": "lib-db-main.png",
+				"alt": "project example - library database"
 			},
 			"otherImage1": {
 				"src": "/static/sql-library-db-manager/lib-db1.png",
-				"path": "lib-db1.png"
+				"path": "lib-db1.png",
+				"alt": "project example - library database"
 			},
 			"otherImage2": {
 				"src": "/static/sql-library-db-manager/lib-db2.png",
-				"path": "lib-db2.png"
+				"path": "lib-db2.png",
+				"alt": "project example - library database"
 			},
 			"otherImage3": {
 				"src": "/static/sql-library-db-manager/lib-db3.png",
-				"path": "lib-db3.png"
+				"path": "lib-db3.png",
+				"alt": "project example - library database"
 			}
 		},
 		{
@@ -244,19 +276,23 @@
 			"liveLink": "",
 			"mainImage": {
 				"src": "/static/school-db-rest-api/postman-main.png",
-				"path": "postman-main.png"
+				"path": "postman-main.png",
+				"alt": "project example - school database rest api"
 			},
 			"otherImage1": {
 				"src": "/static/school-db-rest-api/postman1.png",
-				"path": "postman1.png"
+				"path": "postman1.png",
+				"alt": "project example - school database rest api"
 			},
 			"otherImage2": {
 				"src": "/static/school-db-rest-api/postman2.png",
-				"path": "postman2.png"
+				"path": "postman2.png",
+				"alt": "project example - school database rest api"
 			},
 			"otherImage3": {
 				"src": "/static/school-db-rest-api/postman3.png",
-				"path": "postman3.png"
+				"path": "postman3.png",
+				"alt": "project example - school database rest api"
 			}
 		},
 		{
@@ -276,31 +312,38 @@
 			"liveLink": "",
 			"mainImage": {
 				"src": "/static/school-db-react-plus-api/app-main.png",
-				"path": "app-main.png"
+				"path": "app-main.png",
+				"alt": "project example - school database"
 			},
 			"otherImage1": {
 				"src": "/static/school-db-react-plus-api/app1.png",
-				"path": "app1.png"
+				"path": "app1.png",
+				"alt": "project example - school database"
 			},
 			"otherImage2": {
 				"src": "/static/school-db-react-plus-api/app2.png",
-				"path": "app2.png"
+				"path": "app2.png",
+				"alt": "project example - school database"
 			},
 			"otherImage3": {
 				"src": "/static/school-db-react-plus-api/app3.png",
-				"path": "app3.png"
+				"path": "app3.png",
+				"alt": "project example - school database"
 			},
 			"otherImage4": {
 				"src": "/static/school-db-react-plus-api/app4.png",
-				"path": "app4.png"
+				"path": "app4.png",
+				"alt": "project example - school database"
 			},
 			"otherImage5": {
 				"src": "/static/school-db-react-plus-api/app5.png",
-				"path": "app5.png"
+				"path": "app5.png",
+				"alt": "project example - school database"
 			},
 			"otherImage6": {
 				"src": "/static/school-db-react-plus-api/app6.png",
-				"path": "app6.png"
+				"path": "app6.png",
+				"alt": "project example - school database"
 			}
 		}
 	]
