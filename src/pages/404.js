@@ -4,7 +4,7 @@ export default function NotFound() {
 	return (
 		<div className='notFound' align='center'>
 			<div>
-				<svg width='350' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 480 480' xmlspace='preserve'>
+				<svg width='350' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 480 480'>
 					<path fill='#225588' d='M456,0H24C10.7,0,0,10.7,0,24v336c0,13.3,10.7,24,24,24h173.8l-12,48H56c-13.3,0-24,10.7-24,24s10.7,24,24,24h368
 						c13.3,0,24-10.7,24-24s-10.7-24-24-24H294.2l-12-48H456c13.3,0,24-10.7,24-24V24C480,10.7,469.3,0,456,0z M16,80h448v224H16V80z
 						M464,24v40H348.9l-24-48H456C460.4,16,464,19.6,464,24z M307.1,16l24,48h-62.1l-24-48H307.1z M16,24c0-4.4,3.6-8,8-8h203.1l24,48
@@ -26,7 +26,7 @@ export default function NotFound() {
 				</svg>
 			</div>
 			<div>
-				<h3>Sorry, the page you're looking for does not exist!</h3>
+				<h1>Sorry, the page you're looking for does not exist!</h1>
 			</div>
 		</div>
 	);

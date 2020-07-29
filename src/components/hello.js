@@ -1,12 +1,11 @@
 import React from 'react';
+import styles from './css/hello.module.css'
 
 export default function Hello() {
 	return (
-		<section className='hello section'>
-			<img alt='bridge' src='bridge.jpg' width='100%'/>
-			<h1>MONIQUE RICO CINATL</h1>
-			<hr/>
-			<h2>Developer. Creator. Collaborator.</h2>
+		<section className={styles.sectionPadding}>
+			<h1 className={styles.h1}>Monique Rico Cinatl</h1>
+			<h2 className={styles.h2}>Developer. Creator. Collaborator.</h2>
 		</section>
 	)
 }

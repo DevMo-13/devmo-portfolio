@@ -1,0 +1,23 @@
+
+.h1 {
+	color: #225588;
+	font-size: 4em;
+	text-align: center;
+	font-family: 'Poppins';
+	text-transform: uppercase;
+	text-shadow: #94AFC9 1.5px 1.5px 2px;
+	margin: auto;
+}
+
+.h2 {
+	font-size: 2em;
+	font-weight: lighter;
+	text-align: center;
+	font-family: 'Bebas Neue';
+	letter-spacing: .15em;
+	margin-top: 0;
+}
+
+.sectionPadding {
+	padding: 10em;
+}
