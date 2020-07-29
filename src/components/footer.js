@@ -61,8 +61,8 @@ export default function Footer() {
 						</a>
 					</p>
 				</div>
-				<div className='copyright' align='center'>			
-					<p className={styles.p}>HANDCRAFTED BY MONIQUE CINATL &copy; 2020</p>
+				<div className={styles.copyright}>			
+					<p className={styles.p}>• HANDCRAFTED BY MONIQUE CINATL &copy; 2020 •</p>
 					<img className='myLogo' alt='logo' src='favicon.ico' width='50em'/>
 				</div>
 		</footer>

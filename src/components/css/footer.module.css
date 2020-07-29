@@ -19,7 +19,15 @@
 	padding: 1em;
 }
 
+.copyright {
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	flex-direction: column;
+}
+
 .p {
 	font-family: 'Poppins';
 	padding-bottom: 2em;
+	letter-spacing: .1em;
 }
