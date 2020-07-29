@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Renders the 404 / NotFound page.
 export default function NotFound() {
 	return (
 		<div className='notFound' align='center'>

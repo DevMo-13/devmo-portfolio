@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './css/footer.module.css'
 
+// Renders the Footer of the page.
 export default function Footer() {
 	return (
 		<footer>
