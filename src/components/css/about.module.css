@@ -3,7 +3,8 @@
 	font-size: 2em;
 	font-weight: lighter;
 	text-align: center;
-	font-family: 'Bebas Neue';
+	font-family: 'Questrial';
+	text-transform: uppercase;
 	color: #FFFFFF;
 	letter-spacing: .1em;
 	padding: 1em 2em 1em 2em;
@@ -25,9 +26,7 @@
 .img{
 	width: 15%;
 	border-radius: 50%;
-	border-style: solid;
-	border-color: #FFFFFF;
-	border-width: .2em;
+	border: .2em solid #FFFFFF;
 	display: block;
 	margin: auto;
 }

@@ -1,13 +1,14 @@
 import React from 'react';
+import styles from './css/footer.module.css'
 
 export default function Footer() {
 	return (
 		<footer>
-			<hr/>
-				<div className='social' align='center'>
+			<hr className={styles.hr}/>
+				<div className={styles.social}>
 					<p>
 						<a className='github' href='https://github.com/DevMo-13' target='_blank' rel='noreferrer'>
-							<svg width='3.5em' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'>
+							<svg className={styles.svg} version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'>
 								<path fill='#225588' className='st0' d='M256,0C115.3,0,0,116.3,0,257c0,139.9,114.3,255,256,255c141.6,0,256-114.9,256-255C512,116.3,396.7,0,256,0z
 								M301,477.5c-14.4,3-29.7,4.5-45,4.5s-30.6-1.5-45-4.5v-70.2c0-16.8,4.5-22.8,10.5-30.9c3.1-3.5,4.9-6.6,18.6-27.3l-23.1-3.6
 								c-59.4-8.7-82.8-39.6-92.1-63.6c-12-32.1-5.7-72.3,15.9-97.8c3.3-3.9,6-10.5,3.6-17.4c-4.5-13.8-3.9-35.7-0.9-44.1
@@ -24,7 +25,7 @@ export default function Footer() {
 							</svg>
 						</a>
 						<a className='linkedin' href='https://www.linkedin.com/in/moniquecinatl/' target='_blank' rel='noreferrer'>
-							<svg width='3.5em' version='1.1' id='regular' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'>
+							<svg className={styles.svg} version='1.1' id='regular' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'>
 								<path fill='#225588' className='st0' d='M396.6,512c2.2,0,101.6,0,99.4,0c8.8,0,16-7.2,16-16c-7.5-167.6,39.3-344.5-135.2-344.5
 									c-33.6,0-60.3,11.5-79.6,26.6c0-31.2-33.7-13.9-111.4-18.6c-8.8,0-16,7.2-16,16c6.4,302.2-14.4,336.4,16,336.4h99.4
 									c28.9,0,10.5-40.7,16-174.7c0-55.3,16-66.2,43.6-66.2c30.6,0,35.7,21.2,35.7,68.9C386.1,471.6,367.8,512,396.6,512z M344.9,239.1
@@ -37,7 +38,7 @@ export default function Footer() {
 							</svg>
 						</a>
 						<a className='twitter' href='https://twitter.com/moniquecinatl' target='_blank' rel='noreferrer'>
-							<svg width='3.75em' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512' >
+							<svg className={styles.svg} version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512' >
 								<path fill='#225588' className='st0' d='M512,103c-32.2,1.5-31.5,1.4-35.1,1.7l19.1-54.5c0,0-59.5,21.9-74.6,25.8c-39.6-35.6-98.6-37.2-140.7-11.3
 									c-34.5,21.2-53,57.6-46.8,100.2c-67.1-9.3-123.7-41.1-168.4-94.8l-14.1-17L40.7,72.5C27.4,97,23,125,28.3,151.3
 									c2.2,10.8,5.9,21.1,11,30.8l-12.1-4.7l-1.4,20.2c-1.5,20.6,5.4,44.6,18.3,64.2c3.6,5.5,8.3,11.6,14.3,17.6l-6.3-1l7.6,23.2
@@ -52,7 +53,7 @@ export default function Footer() {
 							</svg>	
 						</a>
 						<a className='email' href='mailto:moniquecinatl@gmail.com' target='_blank' rel='noreferrer'>
-							<svg width='3.75em' version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'>
+							<svg className={styles.svg} version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'>
 								<path fill='#225588' d='M467,61H45C20.2,61,0,81.2,0,106v300c0,24.7,20.1,45,45,45h422c24.7,0,45-20.1,45-45V106C512,81.3,491.9,61,467,61z
 									M460.8,91L257,294.8L51.4,91H460.8z M30,399.8V112.1l144.5,143.2L30,399.8z M51.2,421l144.6-144.6l50.7,50.2
 									c5.9,5.8,15.3,5.8,21.2,0l49.4-49.4L460.8,421H51.2z M482,399.8L338.2,256L482,112.2V399.8z'/>
@@ -61,7 +62,7 @@ export default function Footer() {
 					</p>
 				</div>
 				<div className='copyright' align='center'>			
-					<p>HANDCRAFTED BY MONIQUE CINATL &copy; 2020</p>
+					<p className={styles.p}>HANDCRAFTED BY MONIQUE CINATL &copy; 2020</p>
 					<img className='myLogo' alt='logo' src='favicon.ico' width='50em'/>
 				</div>
 		</footer>

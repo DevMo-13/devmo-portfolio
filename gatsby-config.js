@@ -18,7 +18,7 @@ module.exports = {
 					variants: [`400`, `Semi-bold 600`, `Bold 700`]
 				},
 				{
-					family: `Bebas Neue`
+					family: `Questrial`
 				},
 				],
 			},
