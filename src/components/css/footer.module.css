@@ -1,23 +1,24 @@
 
-/* .footer {
-	height: 50px;
-} */
+.footer {
+	padding-bottom: 10px;
+}
 
 .hr {
 	border-style: ridge;
+	margin: 0;
 }
 
 .social {
 	display: flex;
 	margin: 0 auto;
 	justify-content: center;
-	padding: 20px;
+	padding: 20px 40px 10px 40px;
 }
 
 .svg {
-	width: 2.5em;
-	padding-left: 5em;
-	padding-right: 5em;
+	width: 2em;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .svg:hover {
@@ -33,13 +34,13 @@
 
 .p {
 	font-family: 'Poppins';
-	font-size: 15px;
-	padding-bottom: 20px;
+	font-size: 10px;
+	padding-bottom: 10px;
 	letter-spacing: .1em;
 }
 
 .logo {
-	width: 2.5em;
+	width: 2em;
 }
 
 @media (max-width: 800px) {
@@ -58,9 +59,3 @@
 		width: 35px;
 	}
 }
-
-/* @media (max-height: 700px) {
-	.footer {
-		position: relative;
-	}
-} */

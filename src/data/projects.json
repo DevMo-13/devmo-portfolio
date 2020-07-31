@@ -10,7 +10,7 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/random-quote-generator",
 			"liveLink": "https://devmo-13.github.io/random-quote-generator/",
-			"mainImage": {
+			"mainImgSrc": {
 				"src": "../images/project1/proj1-main.png",
 				"path": "proj1-main.png",
 				"alt": "project example - random qoute"
@@ -42,7 +42,7 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/list-pagination-and-filtering",
 			"liveLink": "https://devmo-13.github.io/list-pagination-and-filtering/",
-			"mainImage": {
+			"mainImgSrc": {
 				"src": "../images/project2/proj2-main.png",
 				"path": "proj2-main.png",
 				"alt": "project example - pagination"
@@ -73,7 +73,7 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/interactive-form",
 			"liveLink": "https://devmo-13.github.io/interactive-form/",
-			"mainImage": {
+			"mainImgSrc": {
 				"src": "../images/project3/proj3-main.png",
 				"path": "proj3-main.png",
 				"alt": "project example - form"
@@ -105,7 +105,7 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/oop-game-show-app",
 			"liveLink": "https://devmo-13.github.io/oop-game-show-app/",
-			"mainImage": {
+			"mainImgSrc": {
 				"src": "../images/project4/proj4-main.png",
 				"path": "proj4-main.png",
 				"alt": "project example - phrase game"
@@ -137,7 +137,7 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/public-api-requests",
 			"liveLink": "https://devmo-13.github.io/public-api-requests/",
-			"mainImage": {
+			"mainImgSrc": {
 				"src": "../images/project5/proj5-main.png",
 				"path": "proj5-main.png",
 				"alt": "project example - directory"
@@ -171,7 +171,7 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/static-node.js-and-express-site",
 			"liveLink": "",
-			"mainImage": {
+			"mainImgSrc": {
 				"src": "../images/project6/proj6-main.png",
 				"path": "proj6-main.png",
 				"alt": "project example - portfolio"
@@ -204,7 +204,7 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/react-gallery-app",
 			"liveLink": "",
-			"mainImage": {
+			"mainImgSrc": {
 				"src": "../images/project7/proj7-main.png",
 				"path": "proj7-main.png",
 				"alt": "project example - gallery"
@@ -239,7 +239,7 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/sql-library-manager",
 			"liveLink": "",
-			"mainImage": {
+			"mainImgSrc": {
 				"src": "../images/project8/proj8-main.png",
 				"path": "proj8-main.png",
 				"alt": "project example - library database"
@@ -274,7 +274,7 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/rest-api",
 			"liveLink": "",
-			"mainImage": {
+			"mainImgSrc": {
 				"src": "../images/project9/proj9-main.png",
 				"path": "proj9-main.png",
 				"alt": "project example - school database rest api"
@@ -297,7 +297,7 @@
 		},
 		{
 			"id": "10",
-			"projName": "SCHOOL DATABASE - WITH REACT AND REST API",
+			"projName": "SCHOOL DB -  REACT AND REST API",
 			"description": "In this project, I used my knowledge of React, JSX, React Router, React Context API, and Create React App to create a client for the school database REST API I created in another project. The full stack application provides a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating and deleting courses in the database. In addition, the project requires users to create an account and sign in to make changes to the database.",
 			"technologies": [
 				"React",
@@ -310,7 +310,7 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/full-stack-app-with-react-and-rest-api",
 			"liveLink": "",
-			"mainImage": {
+			"mainImgSrc": {
 				"src": "../images/project10/proj10-main.png",
 				"path": "proj10-main.png",
 				"alt": "project example - school database"
@@ -328,21 +328,6 @@
 			"otherImage3": {
 				"src": "../images/project10/proj10-3.png",
 				"path": "proj10-3.png",
-				"alt": "project example - school database"
-			},
-			"otherImage4": {
-				"src": "../images/project10/proj10-4.png",
-				"path": "proj10-4.png",
-				"alt": "project example - school database"
-			},
-			"otherImage5": {
-				"src": "../images/project10/proj10-5.png",
-				"path": "proj10-5.png",
-				"alt": "project example - school database"
-			},
-			"otherImage6": {
-				"src": "../images/project10/proj10-6.png",
-				"path": "proj10-6.png",
 				"alt": "project example - school database"
 			}
 		}
