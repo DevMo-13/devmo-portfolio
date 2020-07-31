@@ -4,7 +4,7 @@ import styles from './css/footer.module.css'
 // Renders the Footer of the page.
 export default function Footer() {
 	return (
-		<footer>
+		<footer className={styles.footer}>
 			<hr className={styles.hr}/>
 				<div className={styles.social}>
 					<a className='github' href='https://github.com/DevMo-13' target='_blank' rel='noreferrer'>

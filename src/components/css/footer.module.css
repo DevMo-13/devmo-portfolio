@@ -1,4 +1,8 @@
 
+/* .footer {
+	height: 50px;
+} */
+
 .hr {
 	border-style: ridge;
 }
@@ -7,7 +11,7 @@
 	display: flex;
 	margin: 0 auto;
 	justify-content: center;
-	padding: 1em;
+	padding: 20px;
 }
 
 .svg {
@@ -54,3 +58,9 @@
 		width: 35px;
 	}
 }
+
+/* @media (max-height: 700px) {
+	.footer {
+		position: relative;
+	}
+} */

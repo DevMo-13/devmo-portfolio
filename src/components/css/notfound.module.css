@@ -1,0 +1,33 @@
+
+.notFoundDiv {
+	padding: 40px 10px 40px 10px;
+}
+
+.svgDiv {
+	padding-top: 50px;
+	width: 250px;
+	display: block;
+	align-content: center;
+}
+
+.h1 {
+	color: #668877;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Poppins';
+	text-transform: uppercase;
+	text-shadow: #94AFC9 1.5px 1.5px 2px;
+	margin: auto;
+	padding: 40px 10px 40px 10px;
+}
+
+.home {
+	font-family: 'Questrial';
+	color: #000000;
+}
+
+@media (max-height: 700px) {
+	.notFoundDiv {
+		padding-bottom: 15px;
+	}
+}
