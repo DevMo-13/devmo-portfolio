@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './css/footer.module.css'
 
 // Renders the Footer of the page.
-export default function Footer() {
+export default function Footer() {	
 	return (
 		<footer className={styles.footer}>
 			<hr className={styles.hr}/>
@@ -62,7 +62,7 @@ export default function Footer() {
 				</div>
 				<div className={styles.copyright}>			
 					<p className={styles.p}>• HANDCRAFTED BY MONIQUE CINATL &copy; 2020 •</p>
-					<img className={styles.logo} alt='logo' src='favicon.ico' width='50em'/>
+					<img className={styles.logo} alt='logo' src='favicon.ico'/>
 				</div>
 		</footer>
 	);

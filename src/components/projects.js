@@ -2,7 +2,6 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
 export default function Projects() {
-
 	
 	return (
 		<section className='projects-section'>
