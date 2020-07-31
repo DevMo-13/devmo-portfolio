@@ -12,6 +12,7 @@ export default function Home() {
 			<div>
 				<Hello />
 				<About />
+				<Projects />
 			</div>
 			<Footer />
 		</BrowserRouter>
