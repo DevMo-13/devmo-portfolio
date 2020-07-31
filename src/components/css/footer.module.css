@@ -46,8 +46,6 @@
 @media (max-width: 800px) {
 	.svg {
 		width: 30px;
-		padding-left: 22px;
-		padding-right: 22px;
 	}
 
 	.p {
@@ -56,6 +54,6 @@
 	}
 
 	.logo {
-		width: 35px;
+		width: 30px;
 	}
 }

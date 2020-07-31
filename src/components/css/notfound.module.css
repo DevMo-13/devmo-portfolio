@@ -1,6 +1,6 @@
 
 .notFoundDiv {
-	padding: 40px 10px 750px 10px;
+	padding: 40px 10px 200px 10px;
 }
 
 .svgDiv {
@@ -28,7 +28,7 @@
 	padding-bottom: 100px;
 }
 
-@media (max-height: 1000px) {
+@media (max-height: 850px) {
 	.notFoundDiv {
 		padding-bottom: 25px;
 	}
