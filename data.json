@@ -11,23 +11,23 @@
 			"githubLink": "https://github.com/DevMo-13/random-quote-generator",
 			"liveLink": "https://devmo-13.github.io/random-quote-generator/",
 			"mainImage": {
-				"src": "/static/random-quote-generator/quote-main.png",
-				"path": "quote-main.png",
+				"src": "./src/images/project1/proj1-main.png",
+				"path": "proj1-main.png",
 				"alt": "project example - random qoute"
 			},
 			"otherImage1": {
-				"src": "/static/random-quote-generator/quote1.png",
-				"path": "quote1.png",
+				"src": "./src/images/project1/proj1-1.png",
+				"path": "proj1-1.png",
 				"alt": "project example - random qoute"
 			},
 			"otherImage2": {
-				"src": "/static/random-quote-generator/quote2.png",
-				"path": "quote2.png",
+				"src": "./src/images/project1/proj1-2.png",
+				"path": "proj1-2.png",
 				"alt": "project example - random qoute"
 			},
 			"otherImage3": {
-				"src": "/static/random-quote-generator/quote3.png",
-				"path": "quote3.png",
+				"src": "./src/images/project1/proj1-3.png",
+				"path": "proj1-3.png",
 				"alt": "project example - random qoute"
 			}
 		},
@@ -43,23 +43,23 @@
 			"githubLink": "https://github.com/DevMo-13/list-pagination-and-filtering",
 			"liveLink": "https://devmo-13.github.io/list-pagination-and-filtering/",
 			"mainImage": {
-				"src": "/static/student-list-paginator/pagination-main.png",
-				"path": "pagination-main.png",
+				"src": "./src/images/project2/proj2-main.png",
+				"path": "proj2-main.png",
 				"alt": "project example - pagination"
 			},
 			"otherImage1": {
-				"src": "/static/student-list-paginator/pagination1.png",
-				"path": "pagination1.png",
+				"src": "./src/images/project2/proj2-1.png",
+				"path": "proj2-1.png",
 				"alt": "project example - pagination"
 			},
 			"otherImage2": {
-				"src": "/static/student-list-paginator/pagination2.png",
-				"path": "pagination2.png",
+				"src": "./src/images/project2/proj2-2.png",
+				"path": "proj2-2.png",
 				"alt": "project example - pagination"
 			},
 			"otherImage3": {
-				"src": "/static/student-list-paginator/pagination3.png",
-				"path": "pagination3.png",
+				"src": "./src/images/project2/proj2-3.png",
+				"path": "proj2-3.png",
 				"alt": "project example - pagination"
 			}
 		},
@@ -74,23 +74,23 @@
 			"githubLink": "https://github.com/DevMo-13/interactive-form",
 			"liveLink": "https://devmo-13.github.io/interactive-form/",
 			"mainImage": {
-				"src": "/static/interactice-registration-form/form-main.png",
-				"path": "form-main.png",
+				"src": "./src/images/project3/proj3-main.png",
+				"path": "proj3-main.png",
 				"alt": "project example - form"
 			},
 			"otherImage1": {
-				"src": "/static/interactice-registration-form/form1.png",
-				"path": "form1.png",
+				"src": "./src/images/project3/proj3-1.png",
+				"path": "proj3-1.png",
 				"alt": "project example - form"
 			},
 			"otherImage2": {
-				"src": "/static/interactice-registration-form/form2.png",
-				"path": "form2.png",
+				"src": "./src/images/project3/proj3-2.png",
+				"path": "proj3-2.png",
 				"alt": "project example - form"
 			},
 			"otherImage3": {
-				"src": "/static/interactice-registration-form/form3.png",
-				"path": "form3.png",
+				"src": "./src/images/project3/proj3-3.png",
+				"path": "proj3-3.png",
 				"alt": "project example - form"
 			}
 		},
@@ -106,23 +106,23 @@
 			"githubLink": "https://github.com/DevMo-13/oop-game-show-app",
 			"liveLink": "https://devmo-13.github.io/oop-game-show-app/",
 			"mainImage": {
-				"src": "/static/oop-phrase-hunter/phrase-main.png",
-				"path": "phrase-main.png",
+				"src": "./src/images/project4/proj4-main.png",
+				"path": "proj4-main.png",
 				"alt": "project example - phrase game"
 			},
 			"otherImage1": {
-				"src": "/static/oop-phrase-hunter/phrase1.png",
-				"path": "phrase1.png",
+				"src": "./src/images/project4/proj4-1.png",
+				"path": "proj4-1.png",
 				"alt": "project example - phrase game"
 			},
 			"otherImage2": {
-				"src": "/static/oop-phrase-hunter/phrase2.png",
-				"path": "phrase2.png",
+				"src": "./src/images/project4/proj4-2.png",
+				"path": "proj4-2.png",
 				"alt": "project example - phrase game"
 			},
 			"otherImage3": {
-				"src": "/static/oop-phrase-hunter/phrase3.png",
-				"path": "phrase3.png",
+				"src": "./src/images/project4/proj4-3.png",
+				"path": "proj4-3.png",
 				"alt": "project example - phrase game"
 			}
 		},
@@ -138,23 +138,23 @@
 			"githubLink": "https://github.com/DevMo-13/public-api-requests",
 			"liveLink": "https://devmo-13.github.io/public-api-requests/",
 			"mainImage": {
-				"src": "/static/eployee-directory-public-api-requests/directory-main.png",
-				"path": "directory-main.png",
+				"src": "./src/images/project5/proj5-main.png",
+				"path": "proj5-main.png",
 				"alt": "project example - directory"
 			},
 			"otherImage1": {
-				"src": "/static/eployee-directory-public-api-requests/directory1.png",
-				"path": "directory1.png",
+				"src": "./src/images/project5/proj5-1.png",
+				"path": "proj5-1.png",
 				"alt": "project example - directory"
 			},
 			"otherImage2": {
-				"src": "/static/eployee-directory-public-api-requests/directory2.png",
-				"path": "directory2.png",
+				"src": "./src/images/project5/proj5-2.png",
+				"path": "proj5-2.png",
 				"alt": "project example - directory"
 			},
 			"otherImage3": {
-				"src": "/static/eployee-directory-public-api-requests/directory3.png",
-				"path": "directory3.png",
+				"src": "./src/images/project5/proj5-3.png",
+				"path": "proj5-3.png",
 				"alt": "project example - directory"
 			}
 		},
@@ -172,23 +172,23 @@
 			"githubLink": "https://github.com/DevMo-13/static-node.js-and-express-site",
 			"liveLink": "",
 			"mainImage": {
-				"src": "/static/node-express-portfolio/portfolio-main.png",
-				"path": "portfolio-main.png",
+				"src": "./src/images/project6/proj6-main.png",
+				"path": "proj6-main.png",
 				"alt": "project example - portfolio"
 			},
 			"otherImage1": {
-				"src": "/static/node-express-portfolio/portfolio1.png",
-				"path": "portfolio1.png",
+				"src": "./src/images/project6/proj6-1.png",
+				"path": "proj6-1.png",
 				"alt": "project example - portfolio"
 			},
 			"otherImage2": {
-				"src": "/static/node-express-portfolio/portfolio2.png",
-				"path": "portfolio2.png",
+				"src": "./src/images/project6/proj6-2.png",
+				"path": "proj6-2.png",
 				"alt": "project example - portfolio"
 			},
 			"otherImage3": {
-				"src": "/static/node-express-portfolio/portfolio3.png",
-				"path": "portfolio3.png",
+				"src": "./src/images/project6/proj6-3.png",
+				"path": "proj6-3.png",
 				"alt": "project example - portfolio"
 			}
 		},
@@ -205,23 +205,23 @@
 			"githubLink": "https://github.com/DevMo-13/react-gallery-app",
 			"liveLink": "",
 			"mainImage": {
-				"src": "/static/react-gallery-app/gallery-main.png",
-				"path": "gallery-main.png",
+				"src": "./src/images/project7/proj7-main.png",
+				"path": "proj7-main.png",
 				"alt": "project example - gallery"
 			},
 			"otherImage1": {
-				"src": "/static/react-gallery-app/gallery1.png",
-				"path": "gallery1.png",
+				"src": "./src/images/project7/proj7-1.png",
+				"path": "proj7-1.png",
 				"alt": "project example - gallery"
 			},
 			"otherImage2": {
-				"src": "/static/react-gallery-app/gallery2.png",
-				"path": "gallery2.png",
+				"src": "./src/images/project7/proj7-2.png",
+				"path": "proj7-2.png",
 				"alt": "project example - gallery"
 			},
 			"otherImage3": {
-				"src": "/static/react-gallery-app/gallery3.png",
-				"path": "gallery3.png",
+				"src": "./src/images/project7/proj7-3.png",
+				"path": "proj7-3.png",
 				"alt": "project example - gallery"
 			}
 		},
@@ -240,23 +240,23 @@
 			"githubLink": "https://github.com/DevMo-13/sql-library-manager",
 			"liveLink": "",
 			"mainImage": {
-				"src": "/static/sql-library-db-manager/lib-db-main.png",
-				"path": "lib-db-main.png",
+				"src": "./src/images/project8/proj8-main.png",
+				"path": "proj8-main.png",
 				"alt": "project example - library database"
 			},
 			"otherImage1": {
-				"src": "/static/sql-library-db-manager/lib-db1.png",
-				"path": "lib-db1.png",
+				"src": "./src/images/project8/proj8-1.png",
+				"path": "proj8-1.png",
 				"alt": "project example - library database"
 			},
 			"otherImage2": {
-				"src": "/static/sql-library-db-manager/lib-db2.png",
-				"path": "lib-db2.png",
+				"src": "./src/images/project8/proj8-2.png",
+				"path": "proj8-2.png",
 				"alt": "project example - library database"
 			},
 			"otherImage3": {
-				"src": "/static/sql-library-db-manager/lib-db3.png",
-				"path": "lib-db3.png",
+				"src": "./src/images/project8/proj8-3.png",
+				"path": "proj8-3.png",
 				"alt": "project example - library database"
 			}
 		},
@@ -275,23 +275,23 @@
 			"githubLink": "https://github.com/DevMo-13/rest-api",
 			"liveLink": "",
 			"mainImage": {
-				"src": "/static/school-db-rest-api/postman-main.png",
-				"path": "postman-main.png",
+				"src": "./src/images/project9/proj9-main.png",
+				"path": "proj9-main.png",
 				"alt": "project example - school database rest api"
 			},
 			"otherImage1": {
-				"src": "/static/school-db-rest-api/postman1.png",
-				"path": "postman1.png",
+				"src": "./src/images/project9/proj9-1.png",
+				"path": "proj9-1.png",
 				"alt": "project example - school database rest api"
 			},
 			"otherImage2": {
-				"src": "/static/school-db-rest-api/postman2.png",
-				"path": "postman2.png",
+				"src": "./src/images/project9/proj9-2.png",
+				"path": "proj9-2.png",
 				"alt": "project example - school database rest api"
 			},
 			"otherImage3": {
-				"src": "/static/school-db-rest-api/postman3.png",
-				"path": "postman3.png",
+				"src": "./src/images/project9/proj9-3.png",
+				"path": "proj9-3.png",
 				"alt": "project example - school database rest api"
 			}
 		},
@@ -311,38 +311,38 @@
 			"githubLink": "https://github.com/DevMo-13/full-stack-app-with-react-and-rest-api",
 			"liveLink": "",
 			"mainImage": {
-				"src": "/static/school-db-react-plus-api/app-main.png",
-				"path": "app-main.png",
+				"src": "./src/images/project10/proj10-main.png",
+				"path": "proj10-main.png",
 				"alt": "project example - school database"
 			},
 			"otherImage1": {
-				"src": "/static/school-db-react-plus-api/app1.png",
-				"path": "app1.png",
+				"src": "./src/images/project10/proj10-1.png",
+				"path": "proj10-1.png",
 				"alt": "project example - school database"
 			},
 			"otherImage2": {
-				"src": "/static/school-db-react-plus-api/app2.png",
-				"path": "app2.png",
+				"src": "./src/images/project10/proj10-2.png",
+				"path": "proj10-2.png",
 				"alt": "project example - school database"
 			},
 			"otherImage3": {
-				"src": "/static/school-db-react-plus-api/app3.png",
-				"path": "app3.png",
+				"src": "./src/images/project10/proj10-3.png",
+				"path": "proj10-3.png",
 				"alt": "project example - school database"
 			},
 			"otherImage4": {
-				"src": "/static/school-db-react-plus-api/app4.png",
-				"path": "app4.png",
+				"src": "./src/images/project10/proj10-4.png",
+				"path": "proj10-4.png",
 				"alt": "project example - school database"
 			},
 			"otherImage5": {
-				"src": "/static/school-db-react-plus-api/app5.png",
-				"path": "app5.png",
+				"src": "./src/images/project10/proj10-5.png",
+				"path": "proj10-5.png",
 				"alt": "project example - school database"
 			},
 			"otherImage6": {
-				"src": "/static/school-db-react-plus-api/app6.png",
-				"path": "app6.png",
+				"src": "./src/images/project10/proj10-6.png",
+				"path": "proj10-6.png",
 				"alt": "project example - school database"
 			}
 		}
