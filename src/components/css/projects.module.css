@@ -61,12 +61,28 @@
 }
 
 @media (max-width: 500px) {
+	.ul {
+		grid-template-columns: 300px;
+		grid-row-gap: 20px;
+	}
+
+	.projDiv {
+		width: 300px;
+	}
+
+	.img {
+		height: 300px;
+	}
+}
+
+@media (max-width: 300px) {
 	.projectsSection {
 		padding: 50px 5px 50px 5px;
 	}
 	
 	.ul {
 		grid-template-columns: 200px;
+		grid-row-gap: 20px;
 	}
 	
 	.projDiv {
