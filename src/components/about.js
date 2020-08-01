@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from "gatsby"
 import Img from 'gatsby-image';
-import styles from './css/about.module.css'
+import styles from '../css/about.module.css'
 
 // Renders the About section of the page.
 export default function About(props) {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Project from './project'
-import styles from './css/projects.module.css';
+import styles from '../css/projects.module.css';
 
 export default function Projects() {
 	const projectsData = useStaticQuery(graphql`

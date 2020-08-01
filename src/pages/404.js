@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../components/footer';
-import styles from '../components/css/notfound.module.css'
+import styles from '../css/notfound.module.css'
 
 // Renders the 404 / NotFound page.
 export default function NotFound() {

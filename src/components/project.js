@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './css/projects.module.css';
+import styles from '../css/projects.module.css';
 
 export default function Project({ id, name }) {
 
