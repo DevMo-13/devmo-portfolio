@@ -4,7 +4,7 @@ import Img from 'gatsby-image';
 import styles from '../css/about.module.css'
 
 // Renders the About section of the page.
-export default function About(props) {
+export default function About() {
 	const img = useStaticQuery(graphql`
 		query {
 			file(relativePath: { eq: "profile-pic3.jpg" }) {

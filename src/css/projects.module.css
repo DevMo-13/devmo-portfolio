@@ -19,7 +19,8 @@
 }
 
 .projDiv {
-	width: 350px;
+	width: 100%;
+	height: 100%;
 	padding: 0px;
 }
 
@@ -32,11 +33,14 @@
 
 .imgDiv {
 	overflow: hidden;
+	border: solid;
+	border-color: #898C96;
+	border-radius: 2.5%;
 }
 
 .img {
 	width: 100%;
-	height: 350px;
+	height: 100%;
 }
 
 .imgDiv .img {
@@ -65,19 +69,11 @@
 		grid-template-columns: 300px;
 		grid-row-gap: 20px;
 	}
-
-	.projDiv {
-		width: 300px;
-	}
-
-	.img {
-		height: 300px;
-	}
 }
 
 @media (max-width: 300px) {
 	.projectsSection {
-		padding: 50px 5px 50px 5px;
+		padding: 10px 5px 10px 5px;
 	}
 	
 	.ul {
@@ -86,12 +82,7 @@
 	}
 	
 	.projDiv {
-		width: 200px;
 		justify-self: center;
-	}
-
-	.img {
-		height: 200px;
 	}
 
 	.h3 {
