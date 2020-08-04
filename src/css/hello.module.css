@@ -28,6 +28,10 @@
 	width: 400px;
 }
 
+.svg path {
+	fill: #225588;
+}
+
 @media (max-width: 800px) {
 	.helloSection {
 		padding: 5px;
