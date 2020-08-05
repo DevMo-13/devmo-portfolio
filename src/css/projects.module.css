@@ -24,6 +24,10 @@
 	padding: 0px;
 }
 
+.li {
+	align-content: center;
+}
+
 .h3 {
 	font-family: 'Poppins';
 	font-size: 20px;
@@ -69,6 +73,10 @@
 }
 
 @media (max-width: 500px) {
+	.projectsSection {
+		padding: 10px 5px 10px 5px;
+	}
+	
 	.ul {
 		grid-template-columns: 300px;
 		grid-row-gap: 20px;
@@ -87,11 +95,7 @@
 	}
 }
 
-@media (max-width: 325px) {
-	.projectsSection {
-		padding: 10px 5px 10px 5px;
-	}
-	
+@media (max-width: 325px) {	
 	.ul {
 		grid-template-columns: 200px;
 		grid-row-gap: 0px;
