@@ -13,7 +13,23 @@ export default function Projects() {
                         projects {
 							id
 							projName
+							description
+							githubLink
+							liveLink
+							technologies
 							mainImage {
+								path
+								alt
+							}
+							otherImage1 {
+								path
+								alt
+							}
+							otherImage2 {
+								path
+								alt
+							}
+							otherImage3 {
 								path
 								alt
 							}
@@ -32,7 +48,14 @@ export default function Projects() {
 				key={project.id}
 				id={project.id}
 				name={project.projName}
-				imgData={project.mainImage}
+				desc={project.description}
+				github={project.githubLink}
+				live={project.liveLink}
+				tech={project.technologies}
+				mainImgData={project.mainImage}
+				otherImgData1={project.otherImage1}
+				otherImgData2={project.otherImage2}
+				otherImgData3={project.otherImage3}
 			/>
 		)
 	});

@@ -1,13 +1,11 @@
 import React from 'react';
-
-import Projects from '../components/projects';
-import Project from '../components/project';
+import Details from '../components/details';
 import Footer from '../components/footer';
 
-export default function Details() {
+export default function ProjectDetails() {
 	return (
 		<main>
-
+			<Details />
 			<Footer />
 		</main>
 	)

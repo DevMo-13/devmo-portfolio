@@ -19,7 +19,7 @@
 }
 
 .projDiv {
-	width: 100%;
+	width: 340px;
 	height: 420px;
 	padding: 0px;
 }
@@ -29,7 +29,7 @@
 }
 
 .h3 {
-	font-family: 'Poppins';
+	font-family: 'Questrial';
 	font-size: 20px;
 	font-weight: lighter;
 	text-align: center;
@@ -38,15 +38,18 @@
 .imgDiv {
 	overflow: hidden;
 	width: 100%;
-	height: 350px;
-	border: .3em solid rgba(148, 175, 201, 0.5);
+	height: 340px;
+	border: 5px solid rgba(148, 175, 201, 0.5);
 	border-radius: 2%;
+	position: relative;
 }
 
 .img {
 	width: 100%;
 	height: 100%;
 	opacity: 0.65;
+	display: block;
+	position: relative;
 }
 
 .imgDiv .img {
@@ -58,6 +61,42 @@
 	transform: scale(1.25);
 	opacity: 1.0;
 }
+
+.button {
+	background-color: #668877;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	border-style: solid;
+	border-color: #668877;
+	border-radius: 3.5px;
+	padding: 5px 10px 5px 10px;
+}
+
+.link {
+	background-color: #668877;
+	font-family: Poppins;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	opacity: 0;
+}
+
+.projDiv .link {
+    transition: all 0.5s;
+}
+
+.projDiv:hover .button {
+	opacity: 1;
+}
+
+.projDiv:hover .link {
+	color: white;
+	opacity: 1;
+}
+
 
 @media (max-width: 1400px) {
 	.ul {
@@ -83,7 +122,8 @@
 	}
 
 	.projDiv {
-		height: 370px;
+		width: 290px;
+		height: 360px;
 	}
 
 	.h3 {
@@ -91,19 +131,20 @@
 	}
 
 	.imgDiv {
-		height: 300px;
+		width: 290px;
+		height: 290px;
 	}
 }
 
 @media (max-width: 325px) {	
 	.ul {
 		grid-template-columns: 200px;
-		grid-row-gap: 0px;
+		grid-row-gap: 10px;
 	}
 	
 	.projDiv {
-		justify-self: center;
-		height: 270px;
+		width: 190px;
+		height: 260px;
 	}
 
 	.h3 {
@@ -111,6 +152,7 @@
 	}
 
 	.imgDiv {
-		height: 200px;
+		width: 190px;
+		height: 190px;
 	}
 }

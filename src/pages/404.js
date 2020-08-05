@@ -294,7 +294,7 @@ export default function NotFound() {
 					</svg>
 				</div>
 				<div>
-					<h1 className={styles.h1}>Sorry, the page you're looking for does not exist!</h1>
+					<h1 className={styles.h1}>Silly hooman, the page you're looking for does not exist!</h1>
 					<a className={styles.home} href='/'>Home →</a>
 				</div>
 			</div>
