@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import Details from './details';
 import styles from '../css/projects.module.css';
 
@@ -12,7 +13,7 @@ export default function Project({ id, name, desc, github, live, tech, mainImgDat
 				<div className={styles.imgDiv}>
 					<img className={styles.img} src={mainImgData.path} alt={mainImgData.alt}/>
 					<button className={styles.button}>
-						<a className={styles.link} href={`/project-details/${id}`}>Project Details →</a>
+						<Link className={styles.link} to={`/project-details/${id}`}>Project Details →</Link>
 					</button>
 				</div>
 			</li>
