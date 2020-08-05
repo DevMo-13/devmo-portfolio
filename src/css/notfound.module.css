@@ -5,18 +5,250 @@
 
 .svgDiv {
 	padding-top: 50px;
-	width: 250px;
+	width: 650px;
 	display: block;
 	align-content: center;
 }
 
+.st0 {
+	fill:#F0EFEF;
+}
+
+.st1 {
+	fill:#DDDDDD;
+}
+
+.st2 {
+	fill:#545555;
+}
+
+.st3 {
+	fill:#454544;
+}
+
+.st4 {
+	fill:#A5D9F4;
+}
+
+.st5 {
+	fill:#7EC9E7;
+}
+
+.st6 {
+	fill:#676767;
+}
+
+.st7 {
+	fill:#74B5E3;
+}
+
+.st8 {
+	fill:#54A5D7;
+}
+
+.st9 {
+	fill:#93B83E;
+}
+
+.st10 {
+	fill:#FDB714;
+}
+
+.st11 {
+	fill:#898989;
+}
+
+.st12 {
+	fill:#F04D49;
+}
+
+.st13 {
+	fill:#DDA470;
+}
+
+.st14 {
+	fill:#FAD698;
+}
+
+.st15 {
+	fill:#AEADA8;
+}
+
+.st16 {
+	fill:#8F8F8B;
+}
+
+.st17 {
+	fill:#CBC8C1;
+}
+
+.st18 {
+	fill:#414343;
+}
+
+.st19 {
+	fill:#575A5A;
+}
+
+.st20 {
+	fill:#5287C6;
+}
+
+.st21 {
+	fill:#78A2D5;
+}
+
+.st22 {
+	fill:#FFFFFF;
+}
+
+.st23 {
+	fill:#FAC575;
+}
+
+.st24 {
+	fill:#E8B76B;
+}
+
+.st25 {
+	fill:#D6A964;
+}
+
+.st26 {
+	fill:#F9E1C2;
+}
+
+.st27 {
+	fill:#FCD79F;
+}
+
+.st28 {
+	fill:#82645F;
+}
+
+.st29 {
+	fill:#6D534F;
+}
+
+.st30 {
+	fill:#E6DED9;
+}
+
+.st31 {
+	fill:#D6D0CA;
+}
+
+.st32 {
+	fill:#E69399;
+}
+
+.st33 {
+	fill:#E17881;
+}
+
+.st34 {
+	fill:#C2BDB8;
+}
+
+.st35 {
+	fill:#B0A8A9;
+}
+
+.st36 {
+	fill:#F7F6F6;
+}
+
+.st37 {
+	fill:#ECE6E3;
+}
+
+.st38 {
+	fill:#58585D;
+}
+
+.st39 {
+	fill:#647A8A;
+}
+
+.st40 {
+	fill:#4FBF9F;
+}
+
+.st41 {
+	fill:#D5D6DC;
+}
+
+.st42 {
+	fill:#2D3640;
+}
+
+.st43 {
+	fill:#679ED5;
+}
+
+.st44 {
+	fill:#C4CED3;
+}
+
+.st45 {
+	fill:#ECEAEC;
+}
+
+.st46 {
+	fill:#DBD8DB;
+}
+
+.st47 {
+	fill:#464D59;
+}
+
+.st48 {
+	fill:#F5F6F6;
+}
+
+.st49 {
+	fill:#E6E6E5;
+}
+
+.st50 {
+	fill:#51768D;
+}
+
+.st51 {
+	fill:#2B5A80;
+}
+
+.st52 {
+	fill:#F16570;
+}
+
+.st53 {
+	fill:#FDC783;
+}
+
+.st54 {
+	fill:#99D3B4;
+}
+
+.st55 {
+	fill:#65C6BC;
+}
+
+.st56 {
+	fill:#23AAE2;
+}
+
+.st57 {
+	fill:#163A63;
+}
+
 .h1 {
-	color: #668877;
-	font-size: 25px;
+	color: #225588;
+	font-size: 22px;
 	text-align: center;
 	font-family: 'Poppins';
 	font-weight: 600;
-	text-shadow: #1D603F 1px 1px 1px;
+	text-shadow: #94AFC9 1px 1px 1px;
 	margin: auto;
 	padding: 40px 10px 40px 10px;
 }
@@ -26,10 +258,21 @@
 	text-transform: uppercase;
 	color: #000000;
 	padding-bottom: 100px;
+	text-decoration: none;
 }
 
 @media (max-height: 850px) {
 	.notFoundDiv {
 		padding-bottom: 25px;
+	}
+}
+
+@media (max-width: 800px) {
+	.svgDiv {
+		width: 85%;
+	}
+
+	.h1 {
+		font-size: 1em;
 	}
 }

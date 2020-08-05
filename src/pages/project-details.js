@@ -1,15 +1,13 @@
 import React from 'react';
-import Hello from '../components/hello';
-import About from '../components/about';
+
 import Projects from '../components/projects';
+import Project from '../components/project';
 import Footer from '../components/footer';
 
-export default function Home() {
+export default function Details() {
 	return (
 		<main>
-			<Hello />
-			<About />
-			<Projects />
+
 			<Footer />
 		</main>
 	)
