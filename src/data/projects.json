@@ -2,7 +2,7 @@
 	"projects": [
 		{
 			"id": "1",
-			"projName": "RANDOM QUOTE GENERATOR",
+			"name": "RANDOM QUOTE GENERATOR",
 			"description": "This project uses JavaScript to display a random quote every 7.5 seconds and changes the background color of the page when a new quote is displayed.",
 			"technologies": [
 				"JavaScript",
@@ -28,7 +28,7 @@
 		},
 		{
 			"id": "2",
-			"projName": "STUDENT LIST PAGINATOR",
+			"name": "STUDENT LIST PAGINATOR",
 			"description": "In this project, I used the principle of progressive enhancement to enhance usability of a web page displaying student entries. The page still displays the students' names even with JavaScript disabled, but it is much improved (enhanced) with the JavaScript programming I added. I have also programmed the pagination to work with a list of any number of students, so it is flexible and able to respond to lists of different lengths.",
 			"technologies": [
 				"Progressive Enhancement",
@@ -55,7 +55,7 @@
 		},
 		{
 			"id": "3",
-			"projName": "CONFERENCE REGISTRATION FORM",
+			"name": "CONFERENCE REGISTRATION FORM",
 			"description": "This project uses JavaScript to enhance an interactive registration form for a fictional conference called FullStack Conf.",
 			"technologies": [
 				"JavaScript",
@@ -81,7 +81,7 @@
 		},
 		{
 			"id": "4",
-			"projName": "PHRASE HUNTER GAME APP",
+			"name": "PHRASE HUNTER GAME APP",
 			"description": "In this project, I created a browser-based, word guessing game: Phrase Hunter. I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player then tries to guess.",
 			"technologies": [
 				"Object-Oriented Programming",
@@ -108,7 +108,7 @@
 		},
 		{
 			"id": "5",
-			"projName": "EMPLOYEE DIRECTORY",
+			"name": "EMPLOYEE DIRECTORY",
 			"description": "For this project, I built an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. I used the Random User Generator API (https://randomuser.me/) to grab information for 12 random “employees,” and used that data to build a prototype for an Awesome Startup employee directory. This directory has employees listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
 			"technologies": [
 				"Public API",
@@ -135,7 +135,7 @@
 		},
 		{
 			"id": "6",
-			"projName": "TREEHOUSE PORTFOLIO SITE",
+			"name": "TREEHOUSE PORTFOLIO SITE",
 			"description": "This project utilizes Node.js, Express, and Pug to create a portfolio site to showcase the projects I've built so far in my techdegree. The site contains a modern landing page, an about page with my contact info, and a series of project pages to show off and detail my first 5 projects from the Treehouse FSJS techdegree.",
 			"technologies": [
 				"Node.js",
@@ -164,7 +164,7 @@
 		},
 		{
 			"id": "7",
-			"projName": "REACT GALLERY APP",
+			"name": "REACT GALLERY APP",
 			"description": "This project uses the React library to create an image gallery app.",
 			"technologies": [
 				"React",
@@ -192,7 +192,7 @@
 		},
 		{
 			"id": "8",
-			"projName": "LIBRARY DATABASE MANAGER",
+			"name": "LIBRARY DATABASE MANAGER",
 			"description": "This project uses using JavaScript, Node.js, Express, Pug, and the SQL ORM Sequelize to implement a dynamic web application that manages a library's collection of books. The web application includes pages to list, add, update, and delete books from the library's database.",
 			"technologies": [
 				"Node.js",
@@ -222,7 +222,7 @@
 		},
 		{
 			"id": "9",
-			"projName": "SCHOOL DATABASE - REST API",
+			"name": "SCHOOL DATABASE - REST API",
 			"description": "In this project, I have created a REST API using Express. The API provides a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, as well as adding, updating, and deleting courses in the database. This project also requires users to create an account and log-in to make changes to the database.",
 			"technologies": [
 				"Node.js",
@@ -252,7 +252,7 @@
 		},
 		{
 			"id": "10",
-			"projName": "SCHOOL DB -  REACT AND REST API",
+			"name": "SCHOOL DB -  REACT AND REST API",
 			"description": "In this project, I used my knowledge of React, JSX, React Router, React Context API, and Create React App to create a client for the school database REST API I created in another project. The full stack application provides a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating and deleting courses in the database. In addition, the project requires users to create an account and sign in to make changes to the database.",
 			"technologies": [
 				"React",

@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 export default function Details({ pageContext: { project} }) {
 	return (
 		<main>
-			<h2>{project.projName}</h2>
+			<p>{project.name}</p>
 			<Footer />
 		</main>
 	)

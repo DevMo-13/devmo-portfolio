@@ -14,7 +14,7 @@ export default function Projects() {
                     node {
                         projects {
 							id
-							projName
+							name
 							mainImage {
 								path
 								alt
@@ -35,7 +35,7 @@ export default function Projects() {
 			<Project
 				key={project.id}
 				id={project.id}
-				name={project.projName}
+				name={project.name}
 				mainImgData={project.mainImage}
 			/>
 		)

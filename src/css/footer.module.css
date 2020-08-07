@@ -1,11 +1,8 @@
 
 .footer {
+	padding-top: 10px;
 	padding-bottom: 10px;
-}
-
-.hr {
-	border-style: ridge;
-	margin: 0;
+	background-color: #B9CAC2;
 }
 
 .social {
@@ -22,7 +19,7 @@
 }
 
 .svg path {
-	fill: #225588;
+	fill: #FFFFFF;
 }
 
 .svg:hover {
@@ -38,7 +35,8 @@
 
 .p {
 	font-family: 'Poppins';
-	font-size: 10px;
+	color: #FFFFFF;
+	font-size: 13px;
 	padding-bottom: 10px;
 	letter-spacing: .1em;
 }

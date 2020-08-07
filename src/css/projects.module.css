@@ -63,20 +63,21 @@
 }
 
 .button {
-	background-color: #668877;
+	background-color: #B9CAC2;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	opacity: 0;
 	border-style: solid;
-	border-color: #668877;
+	border-color: #B9CAC2;
 	border-radius: 3.5px;
 	padding: 5px 10px 5px 10px;
 }
 
 .link {
-	background-color: #668877;
+	background-color: #B9CAC2;
+	color: white;
 	font-family: Poppins;
 	font-size: 13px;
 	text-align: center;
@@ -93,7 +94,6 @@
 }
 
 .projDiv:hover .link {
-	color: white;
 	opacity: 1;
 }
 
