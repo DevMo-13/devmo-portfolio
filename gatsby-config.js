@@ -25,6 +25,10 @@ module.exports = {
 				name: `data`,
 				path: `${__dirname}/src/data/`
 			}
-		}
+		},
+		{
+			resolve: `gatsby-plugin-create-client-paths`,
+			options: { prefixes: [`/project-details/*`] },
+		},
 	]
 }
