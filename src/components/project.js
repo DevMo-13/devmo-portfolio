@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styles from '../css/projects.module.css';
 
-// Renders each project div.
+// Renders each project div for the Projects section of the index page.
 export default function Project({ id, name, mainImgData }) {
 	return (
 		<div className={styles.projDiv} id={id}>

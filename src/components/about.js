@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../css/about.module.css'
 
-// Renders the About section of the page.
+// Renders the About section of the index page.
 export default function About() {
 	return (
 		<section className={styles.aboutSection}>

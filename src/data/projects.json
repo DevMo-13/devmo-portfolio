@@ -9,7 +9,6 @@
 				"HTML/CSS"
 			],
 			"githubLink": "https://github.com/DevMo-13/random-quote-generator",
-			"liveLink": "https://devmo-13.github.io/random-quote-generator/",
 			"mainImage": {
 				"path": "proj1-main.png",
 				"alt": "project example - random qoute"
@@ -37,7 +36,6 @@
 				"HTML/CSS"
 			],
 			"githubLink": "https://github.com/DevMo-13/list-pagination-and-filtering",
-			"liveLink": "https://devmo-13.github.io/list-pagination-and-filtering/",
 			"mainImage": {
 				"path": "proj2-main.png",
 				"alt": "project example - pagination"
@@ -64,7 +62,6 @@
 				"HTML/CSS"
 			],
 			"githubLink": "https://github.com/DevMo-13/interactive-form",
-			"liveLink": "https://devmo-13.github.io/interactive-form/",
 			"mainImage": {
 				"path": "proj3-main.png",
 				"alt": "project example - form"
@@ -92,7 +89,6 @@
 				"HTML/CSS"
 			],
 			"githubLink": "https://github.com/DevMo-13/oop-game-show-app",
-			"liveLink": "https://devmo-13.github.io/oop-game-show-app/",
 			"mainImage": {
 				"path": "proj4-main.png",
 				"alt": "project example - phrase game"
@@ -120,7 +116,6 @@
 				"HTML/CSS"
 			],
 			"githubLink": "https://github.com/DevMo-13/public-api-requests",
-			"liveLink": "https://devmo-13.github.io/public-api-requests/",
 			"mainImage": {
 				"path": "proj5-main.png",
 				"alt": "project example - directory"
@@ -150,7 +145,6 @@
 				"HTML/CSS"
 			],
 			"githubLink": "https://github.com/DevMo-13/static-node.js-and-express-site",
-			"liveLink": "",
 			"mainImage": {
 				"path": "proj6-main.png",
 				"alt": "project example - portfolio"
@@ -179,7 +173,6 @@
 				"HTML/CSS"
 			],
 			"githubLink": "https://github.com/DevMo-13/react-gallery-app",
-			"liveLink": "",
 			"mainImage": {
 				"path": "proj7-main.png",
 				"alt": "project example - gallery"
@@ -210,7 +203,6 @@
 				"HTML/CSS"
 			],
 			"githubLink": "https://github.com/DevMo-13/sql-library-manager",
-			"liveLink": "",
 			"mainImage": {
 				"path": "proj8-main.png",
 				"alt": "project example - library database"
@@ -241,7 +233,6 @@
 				"HTML/CSS"
 			],
 			"githubLink": "https://github.com/DevMo-13/rest-api",
-			"liveLink": "",
 			"mainImage": {
 				"path": "proj9-main.png",
 				"alt": "project example - school database rest api"
@@ -273,7 +264,6 @@
 				"HTML/CSS"
 			],
 			"githubLink": "https://github.com/DevMo-13/full-stack-app-with-react-and-rest-api",
-			"liveLink": "",
 			"mainImage": {
 				"path": "proj10-main.png",
 				"alt": "project example - school database"

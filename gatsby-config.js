@@ -1,7 +1,9 @@
 
 module.exports = {
 	siteMetadata: {
-		title: `Monique's Portfolio`
+		title: `Monique's Portfolio`,
+		author: `Monique Rico Cinatl`,
+		url: `https://www.moniquecinatl.com`,
 	},
   	plugins: [
 		{
@@ -25,10 +27,6 @@ module.exports = {
 				name: `data`,
 				path: `${__dirname}/src/data/`
 			}
-		},
-		{
-			resolve: `gatsby-plugin-create-client-paths`,
-			options: { prefixes: [`/project-details/*`] },
 		},
 	]
 }
