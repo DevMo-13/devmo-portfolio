@@ -13,7 +13,7 @@
 }
 
 .svg {
-	width: 2em;
+	width: 60px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -41,21 +41,13 @@
 	letter-spacing: .1em;
 }
 
-.logo {
-	width: 2em;
-}
-
 @media (max-width: 800px) {
 	.svg {
-		width: 30px;
+		width: 50px;
 	}
 
 	.p {
 		font-size: 10px;
 		align-items: center;
-	}
-
-	.logo {
-		width: 30px;
 	}
 }

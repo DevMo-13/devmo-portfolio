@@ -12,7 +12,7 @@ export default function Details({ pageContext: { project} }) {
 	});
 	
 	return (
-		<>
+		<div className='content'>
 			<main>
 				<h1>{project.name}</h1>
 
@@ -32,6 +32,6 @@ export default function Details({ pageContext: { project} }) {
 				<Link to='/'>Home →</Link>
 			</main>
 			<Footer />
-		</>
+		</div>
 	)
 }
