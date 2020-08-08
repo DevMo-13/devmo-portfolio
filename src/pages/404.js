@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'gatsby';
 import Footer from '../components/footer';
 import styles from '../css/notfound.module.css'
 
@@ -296,7 +297,7 @@ export default function NotFound() {
 				</div>
 				<div>
 					<h1 className={styles.h1}>Silly hooman, the page you're looking for does not exist!</h1>
-					<a className={styles.home} href='/'>Home →</a>
+					<Link className={styles.home} to='/'>Home →</Link>
 				</div>
 			</div>
 			<Footer />
