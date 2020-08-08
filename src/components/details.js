@@ -5,21 +5,41 @@ import styles from '../css/details.module.css';
 
 // Renders each project's details on its unique project-details page.
 export default function Details({ pageContext: { project} }) {
+	let prevProject;
+	let nextProject;
+	const projectId = parseInt(project.id);
+
+	// Renders different links depending on which project page the user is on. 
+	// If user is on the first project page, selecting to see the previous project will
+	// take the user to the last project. If the user is on any other project page,
+	// the user will be taken to the previous project's page.
+	if (projectId === 1) {
+		prevProject = <Link to={`/project-details/10`}>← Previous Project</Link>
+	} else {
+		prevProject = <Link to={`/project-details/${projectId - 1}`}>← Previous Project</Link>
+	}
+
+	// If user is on the last project page, selecting to see the next project will
+	// take the user to the first project. If the user is on any other project page,
+	// the user will be taken to the next project's page.
+	if (projectId === 10) {
+		nextProject = <Link to={`/project-details/1`}>Next Project →</Link>
+	} else {
+		nextProject = <Link to={`/project-details/${projectId + 1}`}>Next Project →</Link>
+	}
+
 	// Maps through technologies and renders each as a list item.
 	const { technologies } = project;
 	const tech = technologies.map(function (technology, index) {
 		return <li key={index}>{technology}</li>;
 	});
-
-	// Turns project's id from a string into a number.
-	const projectId = parseInt(project.id);
 	
 	return (
 		<div className='content'>
 			<main>
 				<Link to='/'>Home</Link>
-				<Link to={`/project-details/${projectId - 1}`}>← Previous Project</Link>
-				<Link to={`/project-details/${projectId + 1}`}>Next Project →</Link>
+				{prevProject}
+				{nextProject}
 				<h1 className={styles.h1}>{project.name}</h1>
 
 				<p className={styles.desc}>{project.description}</p>
@@ -41,9 +61,3 @@ export default function Details({ pageContext: { project} }) {
 		</div>
 	)
 }
-
-/*
-TO DO
--fix prev and next buttons for when they reach the first/last projects
-- continue styling
-*/
