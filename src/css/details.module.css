@@ -1,0 +1,27 @@
+
+.h1 {
+	color: #225588;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Poppins';
+	text-transform: uppercase;
+	text-shadow: #94AFC9 2.5px 2.5px 2.5px;
+	margin: auto;
+}
+
+.desc {
+	font-size: 22px;
+	font-weight: lighter;
+	text-align: center;
+	font-family: 'Questrial';
+	letter-spacing: .1em;
+	padding: 1em 2em 1em 2em;
+	margin-top: 0;
+	display: block;
+	margin: auto;
+}
+
+.github a {
+	color: black;
+	text-decoration: none;
+}
