@@ -10,19 +10,19 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/random-quote-generator",
 			"mainImage": {
-				"path": "proj1-main.png",
+				"path": "/proj1-main.png",
 				"alt": "project example - random qoute"
 			},
 			"otherImage1": {
-				"path": "proj1-1.png",
+				"path": "/proj1-1.png",
 				"alt": "project example - random qoute"
 			},
 			"otherImage2": {
-				"path": "proj1-2.png",
+				"path": "/proj1-2.png",
 				"alt": "project example - random qoute"
 			},
 			"otherImage3": {
-				"path": "proj1-3.png",
+				"path": "/proj1-3.png",
 				"alt": "project example - random qoute"
 			}
 		},
@@ -37,19 +37,19 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/list-pagination-and-filtering",
 			"mainImage": {
-				"path": "proj2-main.png",
+				"path": "/proj2-main.png",
 				"alt": "project example - pagination"
 			},
 			"otherImage1": {
-				"path": "proj2-1.png",
+				"path": "/proj2-1.png",
 				"alt": "project example - pagination"
 			},
 			"otherImage2": {
-				"path": "proj2-2.png",
+				"path": "/proj2-2.png",
 				"alt": "project example - pagination"
 			},
 			"otherImage3": {
-				"path": "proj2-3.png",
+				"path": "/proj2-3.png",
 				"alt": "project example - pagination"
 			}
 		},
@@ -63,19 +63,19 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/interactive-form",
 			"mainImage": {
-				"path": "proj3-main.png",
+				"path": "/proj3-main.png",
 				"alt": "project example - form"
 			},
 			"otherImage1": {
-				"path": "proj3-1.png",
+				"path": "/proj3-1.png",
 				"alt": "project example - form"
 			},
 			"otherImage2": {
-				"path": "proj3-2.png",
+				"path": "/proj3-2.png",
 				"alt": "project example - form"
 			},
 			"otherImage3": {
-				"path": "proj3-3.png",
+				"path": "/proj3-3.png",
 				"alt": "project example - form"
 			}
 		},
@@ -90,19 +90,19 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/oop-game-show-app",
 			"mainImage": {
-				"path": "proj4-main.png",
+				"path": "/proj4-main.png",
 				"alt": "project example - phrase game"
 			},
 			"otherImage1": {
-				"path": "proj4-1.png",
+				"path": "/static/proj4-1.png",
 				"alt": "project example - phrase game"
 			},
 			"otherImage2": {
-				"path": "proj4-2.png",
+				"path": "/proj4-2.png",
 				"alt": "project example - phrase game"
 			},
 			"otherImage3": {
-				"path": "proj4-3.png",
+				"path": "/proj4-3.png",
 				"alt": "project example - phrase game"
 			}
 		},
@@ -117,19 +117,19 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/public-api-requests",
 			"mainImage": {
-				"path": "proj5-main.png",
+				"path": "/proj5-main.png",
 				"alt": "project example - directory"
 			},
 			"otherImage1": {
-				"path": "proj5-1.png",
+				"path": "/proj5-1.png",
 				"alt": "project example - directory"
 			},
 			"otherImage2": {
-				"path": "proj5-2.png",
+				"path": "/proj5-2.png",
 				"alt": "project example - directory"
 			},
 			"otherImage3": {
-				"path": "proj5-3.png",
+				"path": "/proj5-3.png",
 				"alt": "project example - directory"
 			}
 		},
@@ -146,19 +146,19 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/static-node.js-and-express-site",
 			"mainImage": {
-				"path": "proj6-main.png",
+				"path": "/proj6-main.png",
 				"alt": "project example - portfolio"
 			},
 			"otherImage1": {
-				"path": "proj6-1.png",
+				"path": "/proj6-1.png",
 				"alt": "project example - portfolio"
 			},
 			"otherImage2": {
-				"path": "proj6-2.png",
+				"path": "/proj6-2.png",
 				"alt": "project example - portfolio"
 			},
 			"otherImage3": {
-				"path": "proj6-3.png",
+				"path": "/proj6-3.png",
 				"alt": "project example - portfolio"
 			}
 		},
@@ -174,19 +174,19 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/react-gallery-app",
 			"mainImage": {
-				"path": "proj7-main.png",
+				"path": "/proj7-main.png",
 				"alt": "project example - gallery"
 			},
 			"otherImage1": {
-				"path": "proj7-1.png",
+				"path": "/proj7-1.png",
 				"alt": "project example - gallery"
 			},
 			"otherImage2": {
-				"path": "proj7-2.png",
+				"path": "/proj7-2.png",
 				"alt": "project example - gallery"
 			},
 			"otherImage3": {
-				"path": "proj7-3.png",
+				"path": "/proj7-3.png",
 				"alt": "project example - gallery"
 			}
 		},
@@ -204,19 +204,19 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/sql-library-manager",
 			"mainImage": {
-				"path": "proj8-main.png",
+				"path": "/proj8-main.png",
 				"alt": "project example - library database"
 			},
 			"otherImage1": {
-				"path": "proj8-1.png",
+				"path": "/proj8-1.png",
 				"alt": "project example - library database"
 			},
 			"otherImage2": {
-				"path": "proj8-2.png",
+				"path": "/proj8-2.png",
 				"alt": "project example - library database"
 			},
 			"otherImage3": {
-				"path": "proj8-3.png",
+				"path": "/proj8-3.png",
 				"alt": "project example - library database"
 			}
 		},
@@ -234,19 +234,19 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/rest-api",
 			"mainImage": {
-				"path": "proj9-main.png",
+				"path": "/proj9-main.png",
 				"alt": "project example - school database rest api"
 			},
 			"otherImage1": {
-				"path": "proj9-1.png",
+				"path": "/proj9-1.png",
 				"alt": "project example - school database rest api"
 			},
 			"otherImage2": {
-				"path": "proj9-2.png",
+				"path": "/proj9-2.png",
 				"alt": "project example - school database rest api"
 			},
 			"otherImage3": {
-				"path": "proj9-3.png",
+				"path": "/proj9-3.png",
 				"alt": "project example - school database rest api"
 			}
 		},
@@ -265,19 +265,19 @@
 			],
 			"githubLink": "https://github.com/DevMo-13/full-stack-app-with-react-and-rest-api",
 			"mainImage": {
-				"path": "proj10-main.png",
+				"path": "/proj10-main.png",
 				"alt": "project example - school database"
 			},
 			"otherImage1": {
-				"path": "proj10-1.png",
+				"path": "/proj10-1.png",
 				"alt": "project example - school database"
 			},
 			"otherImage2": {
-				"path": "proj10-2.png",
+				"path": "/proj10-2.png",
 				"alt": "project example - school database"
 			},
 			"otherImage3": {
-				"path": "proj10-3.png",
+				"path": "/proj10-3.png",
 				"alt": "project example - school database"
 			}
 		}
