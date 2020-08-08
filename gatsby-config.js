@@ -28,5 +28,17 @@ module.exports = {
 				path: `${__dirname}/src/data/`
 			}
 		},
+		{
+            resolve: "gatsby-plugin-tidy",
+            options: {
+                cleanPublic: true,
+                cleanCache: true,
+                removeHashes: true,
+                removeArtifacts: true,
+                noJsMap: true,
+                jsDir: "js",
+                cssDir: "css"
+            }
+        }
 	]
 }
