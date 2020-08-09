@@ -45,21 +45,24 @@ export default function Details({ pageContext: { project} }) {
 				<h1 className={styles.h1}>{project.name}</h1>
 				<div className={styles.infoDiv}>
 					<p className={styles.desc}>{project.description}</p>
-
-					<button className={styles.github}>
-						<a href={project.githubLink} target='_blank' rel='noreferrer'>Source Code</a>
+					<br/>
+					<button className={styles.button}>
+						<a className={styles.githubLink} href={project.githubLink} target='_blank' rel='noreferrer'>Github Repo →</a>
 					</button>
-
-					<ul>
-						{tech}
-					</ul>
+					<br/>
+					<div className={styles.techDiv}>
+						<p className={styles.tech}>{`</>`}</p>
+						<ul className={styles.techLi}>
+							{tech}
+						</ul>
+					</div>
 				</div>
-
-
-				<img src={project.mainImage.path} alt={project.mainImage.alt}/>
-				<img src={project.otherImage1.path} alt={project.otherImage1.alt}/>
-				<img src={project.otherImage2.path} alt={project.otherImage2.alt}/>
-				<img src={project.otherImage3.path} alt={project.otherImage3.alt}/>
+				<div className={styles.imagesDiv}>
+					<img className={styles.img} src={project.mainImage.path} alt={project.mainImage.alt}/>
+					<img className={styles.img} src={project.otherImage1.path} alt={project.otherImage1.alt}/>
+					<img className={styles.img} src={project.otherImage2.path} alt={project.otherImage2.alt}/>
+					<img className={styles.img} src={project.otherImage3.path} alt={project.otherImage3.alt}/>
+				</div>
 			</main>
 			<Footer />
 		</div>

@@ -1,7 +1,6 @@
 
 .nav {
 	padding-top: 15px;
-	padding-bottom: 15px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -30,39 +29,86 @@
 }
 
 .infoDiv {
-	padding: 1em 2em 1em 2em;
+	padding: 2.5em 5em 2.5em 5em;
 	background-color: #668877;
 }
 
 .desc {
 	color: #FFFFFF;
 	font-size: 20px;
-	font-weight: lighter;
 	text-align: center;
 	font-family: 'Questrial';
 	letter-spacing: .1em;
-	line-height: 1.3em;
-	padding: 1em 2em 1em 2em;
-	width: 1000px;
-	display:block;
+	line-height: 1.5em;
+	width: 750px;
+	display: block;
 	margin: 0 auto;
 }
 
-.github {
-	border-style: solid;
+.button {
+	width: 250px;
+	height: 40px;
 	background-color: #B9CAC2;
+	border-style: solid;
 	border-color: #B9CAC2;
 	border-radius: 3.5px;
-	width: 13%;
-	display:block;
+	display: block;
 	margin: 0 auto;
 }
 
-.github a {
+.githubLink {
+	color: #FFFFFF;
 	background-color: #B9CAC2;
-	color: black;
-	font-size: 15px;
+	font-size: 18px;
 	text-align: center;
-	font-family: 'Poppins';
+	font-family: 'Questrial';
 	text-decoration: none;
 }
+
+.techDiv {
+	display: block;
+	margin: 0 auto;
+	background-color: #B9CAC2;
+	width: 250px;
+	border-style: solid;
+	border-color: #B9CAC2;
+	border-radius: 3.5px;
+}
+
+.tech {
+	color: #FFFFFF;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Questrial';
+}
+
+.techLi {
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Questrial';
+	line-height: 1.5em;
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.imagesDiv {
+	margin: 0 auto;
+	padding: 50px;
+	display: grid;
+	grid-template-columns: 750px;
+	grid-template-rows: 750px 500px 500px 500px;
+	grid-row-gap: 50px;
+	justify-content: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+	border: 5px solid rgba(148, 175, 201, 0.5);
+	border-radius: 2%;
+}
+
+
