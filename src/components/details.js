@@ -51,7 +51,7 @@ export default function Details({ pageContext: { project} }) {
 					</button>
 					<br/>
 					<div className={styles.techDiv}>
-						<p className={styles.tech}>{`</>`}</p>
+						<p className={styles.tech}>{`<Technologies />`}</p>
 						<ul className={styles.techLi}>
 							{tech}
 						</ul>
