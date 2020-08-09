@@ -27,13 +27,13 @@ export default function Details({ pageContext: { project} }) {
 	} else {
 		nextProject = <Link className={styles.navLinks} to={`/project-details/${projectId + 1}`}>Next Project →</Link>
 	}
-
-	// Maps through technologies and renders each as a list item.
-	const { technologies } = project;
-	const tech = technologies.map(function (technology, index) {
-		return <li key={index}>{technology}</li>;
-	});
 	
+	// Maps through achievements and renders each as a list item.
+	const { achievements } = project;
+	const achievement = achievements.map(function (achievement, index) {
+		return <li key={index}>{achievement}</li>;
+	});
+
 	return (
 		<div className='content'>
 			<main>
@@ -42,20 +42,18 @@ export default function Details({ pageContext: { project} }) {
 					<Link className={styles.navLinks} to='/'>Home</Link>
 					{nextProject}
 				</nav>
-				<h1 className={styles.h1}>{project.name}</h1>
-				<div className={styles.infoDiv}>
+				<div className={styles.titleDiv}>
+					<h1 className={styles.h1}>{project.name}</h1>
 					<p className={styles.desc}>{project.description}</p>
-					<br/>
 					<button className={styles.button}>
 						<a className={styles.githubLink} href={project.githubLink} target='_blank' rel='noreferrer'>Github Repo →</a>
-					</button>
-					<br/>
-					<div className={styles.techDiv}>
-						<p className={styles.tech}>{`<Technologies />`}</p>
-						<ul className={styles.techLi}>
-							{tech}
-						</ul>
-					</div>
+					</button>					
+				</div>
+				<div className={styles.achievementsDiv}>
+					{/* <p className={styles.achievementsTitle}>Achievements</p> */}
+					<ul className={styles.achievementsUl}>
+						{achievement}
+					</ul>
 				</div>
 				<div className={styles.imagesDiv}>
 					<img className={styles.img} src={project.mainImage.path} alt={project.mainImage.alt}/>
