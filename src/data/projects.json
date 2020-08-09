@@ -35,7 +35,7 @@
 		{
 			"id": "2",
 			"name": "STUDENT LIST PAGINATOR",
-			"description": "Web page that takes a list of student entries and dislays them to the page with pagination.",
+			"description": "Website of student entries with pagination.",
 			"technologies": [
 				"Progressive Enhancement",
 				"JavaScript",
