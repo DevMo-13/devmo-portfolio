@@ -1,4 +1,22 @@
 
+.nav {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navLinks {
+	flex-direction: row;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Poppins';
+	font-weight: 600;
+	font-size: 15px;
+	color: #668877;
+	width: 200px;
+}
+
 .h1 {
 	color: #225588;
 	font-size: 50px;
@@ -7,21 +25,44 @@
 	text-transform: uppercase;
 	text-shadow: #94AFC9 2.5px 2.5px 2.5px;
 	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.infoDiv {
+	padding: 1em 2em 1em 2em;
+	background-color: #668877;
 }
 
 .desc {
-	font-size: 22px;
+	color: #FFFFFF;
+	font-size: 20px;
 	font-weight: lighter;
 	text-align: center;
 	font-family: 'Questrial';
 	letter-spacing: .1em;
+	line-height: 1.3em;
 	padding: 1em 2em 1em 2em;
-	margin-top: 0;
-	display: block;
-	margin: auto;
+	width: 1000px;
+	display:block;
+	margin: 0 auto;
+}
+
+.github {
+	border-style: solid;
+	background-color: #B9CAC2;
+	border-color: #B9CAC2;
+	border-radius: 3.5px;
+	width: 13%;
+	display:block;
+	margin: 0 auto;
 }
 
 .github a {
+	background-color: #B9CAC2;
 	color: black;
+	font-size: 15px;
+	text-align: center;
+	font-family: 'Poppins';
 	text-decoration: none;
 }

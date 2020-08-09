@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import Footer from '../components/footer';
 import styles from '../css/details.module.css';
 
-// Renders each project's details on its unique project-details page.
+// Renders each project's details on a unique project-details page.
 export default function Details({ pageContext: { project} }) {
 	let prevProject;
 	let nextProject;
@@ -14,18 +14,18 @@ export default function Details({ pageContext: { project} }) {
 	// take the user to the last project. If the user is on any other project page,
 	// the user will be taken to the previous project's page.
 	if (projectId === 1) {
-		prevProject = <Link to={`/project-details/10`}>← Previous Project</Link>
+		prevProject = <Link className={styles.navLinks} to={`/project-details/10`}>← Previous Project</Link>
 	} else {
-		prevProject = <Link to={`/project-details/${projectId - 1}`}>← Previous Project</Link>
+		prevProject = <Link className={styles.navLinks} to={`/project-details/${projectId - 1}`}>← Previous Project</Link>
 	}
 
 	// If user is on the last project page, selecting to see the next project will
 	// take the user to the first project. If the user is on any other project page,
 	// the user will be taken to the next project's page.
 	if (projectId === 10) {
-		nextProject = <Link to={`/project-details/1`}>Next Project →</Link>
+		nextProject = <Link className={styles.navLinks} to={`/project-details/1`}>Next Project →</Link>
 	} else {
-		nextProject = <Link to={`/project-details/${projectId + 1}`}>Next Project →</Link>
+		nextProject = <Link className={styles.navLinks} to={`/project-details/${projectId + 1}`}>Next Project →</Link>
 	}
 
 	// Maps through technologies and renders each as a list item.
@@ -37,20 +37,24 @@ export default function Details({ pageContext: { project} }) {
 	return (
 		<div className='content'>
 			<main>
-				<Link to='/'>Home</Link>
-				{prevProject}
-				{nextProject}
+				<nav className={styles.nav}>
+					{prevProject}
+					<Link className={styles.navLinks} to='/'>Home</Link>
+					{nextProject}
+				</nav>
 				<h1 className={styles.h1}>{project.name}</h1>
+				<div className={styles.infoDiv}>
+					<p className={styles.desc}>{project.description}</p>
 
-				<p className={styles.desc}>{project.description}</p>
+					<button className={styles.github}>
+						<a href={project.githubLink} target='_blank' rel='noreferrer'>Source Code</a>
+					</button>
 
-				<p className={styles.github}>
-					<a href={project.githubLink}>Source Code</a>
-				</p>
+					<ul>
+						{tech}
+					</ul>
+				</div>
 
-				<ul>
-					{tech}
-				</ul>
 
 				<img src={project.mainImage.path} alt={project.mainImage.alt}/>
 				<img src={project.otherImage1.path} alt={project.otherImage1.alt}/>
