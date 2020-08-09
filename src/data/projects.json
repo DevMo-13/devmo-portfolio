@@ -3,7 +3,7 @@
 		{
 			"id": "1",
 			"name": "RANDOM QUOTE GENERATOR",
-			"description": "This project uses JavaScript to display a random quote every 7.5 seconds and changes the background color of the page when a new quote is displayed.",
+			"description": "App that displays a random quote every 7.5 seconds and changes the background color of the page with each new qoute.",
 			"technologies": [
 				"JavaScript",
 				"HTML/CSS"
@@ -35,15 +35,17 @@
 		{
 			"id": "2",
 			"name": "STUDENT LIST PAGINATOR",
-			"description": "In this project, I used the principle of progressive enhancement to enhance usability of a web page displaying student entries. The page still displays the students' names even with JavaScript disabled, but it is much improved (enhanced) with the JavaScript programming I added. I have also programmed the pagination to work with a list of any number of students, so it is flexible and able to respond to lists of different lengths.",
+			"description": "Web page that takes a list of student entries and dislays them to the page with pagination.",
 			"technologies": [
 				"Progressive Enhancement",
 				"JavaScript",
 				"HTML/CSS"
 			],
 			"achievements": [
+				"Utilized the principle of progressive enhancement to enhance usability of a web page displaying student entries",
 				"Used JavaScript to take a list of student info and only displays 10 students on the page at a time",
-				"Added a navigation system -- using a series of links at the bottom of the page -- to let users click through the other student entries, 10 at a time"
+				"Added a navigation system -- using a series of links at the bottom of the page -- to let users click through the other student entries, 10 at a time",
+				"Programmed the pagination to work with a list of any number of students, so it is flexible and able to respond to lists of different lengths"
 			],
 			"githubLink": "https://github.com/DevMo-13/list-pagination-and-filtering",
 			"mainImage": {
@@ -66,13 +68,13 @@
 		{
 			"id": "3",
 			"name": "CONFERENCE REGISTRATION FORM",
-			"description": "This project uses JavaScript to enhance an interactive registration form for a fictional conference called FullStack Conf.",
+			"description": "Interactive online regesitration form for a fictional conference called FullStack Conf.",
 			"technologies": [
 				"JavaScript",
 				"HTML/CSS"
 			],
 			"achievements": [
-				"Added customized and conditional behavior / interactivity",
+				"Programmed customized and conditional behavior / interactivity",
 				"Added validation so that the form validates user input and provides helpful error messages when the user enters invalid information into the form fields"
 			],
 			"githubLink": "https://github.com/DevMo-13/interactive-form",
@@ -96,21 +98,22 @@
 		{
 			"id": "4",
 			"name": "PHRASE HUNTER GAME APP",
-			"description": "In this project, I created a browser-based, word guessing game: Phrase Hunter. I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player then tries to guess.",
+			"description": "Browser-based word guessing game: Phrase Hunter.",
 			"technologies": [
 				"Object-Oriented Programming",
 				"JavaScript",
 				"HTML/CSS"
 			],
 			"achievements": [
-				"Using JavaScript, I created 2 JavaScript classes with specific properties and methods - I created a Game class for managing the game, and a Phrase class to help with creating an array of Phrase objects",
-				"My code is programmed to choose a random phrase, split the phrase into letters, and put those letters onto the gameboard",
+				"Used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player then tries to guess",
+				"Created 2 JavaScript classes with specific properties and methods - I created a Game class for managing the game, and a Phrase class to help with creating an array of Phrase objects",
+				"Programmed the app to choose a random phrase, split the phrase into letters, and put those letters onto the gameboard",
 				"Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase (if the letter is in the phrase, the gameboard displays the chosen letters on the screen)",
 				"A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose)",
 				"If the player completes the phrase before they run out of guesses, I programmed a winning screen to appear",
 				"If the player guesses incorrectly five times, I programmed a losing screen to appear",
-				"A player can guess a letter only once - after they’ve guessed a letter, my programming disables that letter on the onscreen keyboard",
-				"I added functinoality in which a player can use their physical computer keyboard to enter guesses"
+				"A player can guess a letter only once - after they’ve guessed a letter, the programming disables that letter on the onscreen keyboard",
+				"Added functionality in which a player can use their physical computer keyboard to enter guesses"
 			],
 			"githubLink": "https://github.com/DevMo-13/oop-game-show-app",
 			"mainImage": {
@@ -133,18 +136,18 @@
 		{
 			"id": "5",
 			"name": "EMPLOYEE DIRECTORY",
-			"description": "For this project, I built an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. I used the Random User Generator API (https://randomuser.me/) to grab information for 12 random “employees,” and used that data to build a prototype for an Awesome Startup employee directory. This directory has employees listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
+			"description": "Employee directory for a fictional company called Awesome Startup. ",
 			"technologies": [
 				"Public API",
 				"JavaScript",
 				"HTML/CSS"
 			],
 			"achievements": [
-				"Requested a JSON object from the public API",
+				"Requested a JSON object from the public API (Random User Generator API) to grab information for 12 random “employees,” and used that data to build a prototype for an Awesome Startup employee directory",
 				"Parsed the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location",
 				"Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address",
 				"Added a way to toggle back and forth between employees when the modal window is open",
-				"Added search functionality that filters the directory by name"
+				"Enabled search functionality that filters the directory by name"
 			],
 			"githubLink": "https://github.com/DevMo-13/public-api-requests",
 			"mainImage": {
@@ -167,7 +170,7 @@
 		{
 			"id": "6",
 			"name": "TREEHOUSE PORTFOLIO SITE",
-			"description": "This project utilizes Node.js, Express, and Pug to create a portfolio site to showcase the projects I've built so far in my techdegree. The site contains a modern landing page, an about page with my contact info, and a series of project pages to show off and detail my first 5 projects from the Treehouse FSJS techdegree.",
+			"description": "Portfolio site to showcase projects in the Treehouse techdegree.",
 			"technologies": [
 				"Node.js",
 				"Express.js",
@@ -176,8 +179,10 @@
 				"HTML/CSS"
 			],
 			"achievements": [
-				"Create a JSON file to store all the data about the projects you've created",
-				"Use Pug to complete provided templates that utilize the JSON to generate the markup that is ultimately displayed in the browser",
+				"Utilized Node.js, Express, and Pug to create a portfolio site to showcase the first 5 projects in the techdegree",
+				"Created a JSON file to store all the data about the projects created",
+				"Site contains a modern landing page, an about page with my contact info, and a series of project pages",
+				"Used Pug to complete provided templates that utilize the JSON to generate the markup that is ultimately displayed in the browser",
 				"Linked the JSON with the Pug templates",
 				"Programmed routes to handle requests",
 				"Programmed the middleware to utilize static files like CSS",
@@ -205,7 +210,7 @@
 		{
 			"id": "7",
 			"name": "REACT GALLERY APP",
-			"description": "This project uses the React library to create an image gallery app.",
+			"description": "Image gallery search app.",
 			"technologies": [
 				"React",
 				"Fetch API",
@@ -218,7 +223,7 @@
 				"Utilized React Router to set up routes for three default topic pages and a search page",
 				"Managed state in a container component that passes data down to reusable stateless components",
 				"Programmed Axios to fetch data from the Flickr API, and the data was used to display images",
-				"Also added logic to handle search and various requirements of the project",
+				"Added logic to handle search and various requirements of the project",
 				"Added a loading indicator that displays each time the app fetches new data",
 				"Programmed a friendly user message to tell the user there are no matches if no matches are found by the search",
 				"Included a 404-like error route that displays a friendly 404 error page when a URL does not match an existing route"
@@ -244,7 +249,7 @@
 		{
 			"id": "8",
 			"name": "LIBRARY DATABASE MANAGER",
-			"description": "This project uses using JavaScript, Node.js, Express, Pug, and the SQL ORM Sequelize to implement a dynamic web application that manages a library's collection of books. The web application includes pages to list, add, update, and delete books from the library's database.",
+			"description": "Dynamic web application that manages a library's collection of books.",
 			"technologies": [
 				"Node.js",
 				"Express.js",
@@ -254,6 +259,7 @@
 				"HTML/CSS"
 			],
 			"achievements": [
+				"Web app includes pages to list, add, update, and delete books from the library's database",
 				"Used Node.js and Express to set up routes and middleware",
 				"Configured the Sequelize ORM for data modeling, validation, and persistence",
 				"Utilized Pug to build out the views"
@@ -279,7 +285,7 @@
 		{
 			"id": "9",
 			"name": "SCHOOL DATABASE - REST API",
-			"description": "In this project, I have created a REST API using Express. The API provides a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, as well as adding, updating, and deleting courses in the database. This project also requires users to create an account and log-in to make changes to the database.",
+			"description": "School database REST that holds information about courses.",
 			"technologies": [
 				"Node.js",
 				"Express.js",
@@ -289,10 +295,12 @@
 				"HTML/CSS"
 			],
 			"achievements": [
+				"API provides a way for users to administer a school database containing information about courses",
+				"Users can interact with the database by retrieving a list of courses, as well as adding, updating, and deleting courses in the database",
 				"Used REST API design, Node.js, and Express to create API routes",
 				"Configured the Sequelize ORM for data modeling, validation, and persistence",
 				"Utilized bcryptjs to hash user passwords",
-				"Set up permissions that require users to be signed in to make changes to database"
+				"Set up permissions that require users to create an account and be signed in to make changes to database"
 			],
 			"githubLink": "https://github.com/DevMo-13/rest-api",
 			"mainImage": {
@@ -315,7 +323,7 @@
 		{
 			"id": "10",
 			"name": "SCHOOL DB -  REACT AND REST API",
-			"description": "In this project, I used my knowledge of React, JSX, React Router, React Context API, and Create React App to create a client for the school database REST API I created in another project. The full stack application provides a way for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating and deleting courses in the database. In addition, the project requires users to create an account and sign in to make changes to the database.",
+			"description": "Full stack client app for the school database REST API.",
 			"technologies": [
 				"React",
 				"Node.js",
@@ -326,6 +334,8 @@
 				"HTML/CSS"
 			],
 			"achievements": [
+				"The full stack application provides a way for users to administer the school database containing information about courses",
+				"Users can interact with the database by retrieving a list of courses, viewing details for a specific course, as well as creating, updating and deleting courses in the database",
 				"Used JavaScript and JSX to build out the components for the application in a modular fashion",
 				"Used React Router to set up routes",
 				"Configured protected routes that only allow authenticated users to access those pages",
