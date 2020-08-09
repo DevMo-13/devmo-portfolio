@@ -8,6 +8,12 @@
 				"JavaScript",
 				"HTML/CSS"
 			],
+			"achievements": [
+				"Built the array of quote objects to store the quotes",
+				"Wrote my own functions for selecting random quotes from the array and printing them to the screen",
+				"Programmed a timing function to automatically update the quote on the page at regular intervals",
+				"Created a function that updates the background color to a random color"
+			],
 			"githubLink": "https://github.com/DevMo-13/random-quote-generator",
 			"mainImage": {
 				"path": "/proj1-main.png",
@@ -35,6 +41,10 @@
 				"JavaScript",
 				"HTML/CSS"
 			],
+			"achievements": [
+				"Used JavaScript to take a list of student info and only displays 10 students on the page at a time",
+				"Added a navigation system -- using a series of links at the bottom of the page -- to let users click through the other student entries, 10 at a time"
+			],
 			"githubLink": "https://github.com/DevMo-13/list-pagination-and-filtering",
 			"mainImage": {
 				"path": "/proj2-main.png",
@@ -60,6 +70,10 @@
 			"technologies": [
 				"JavaScript",
 				"HTML/CSS"
+			],
+			"achievements": [
+				"Added customized and conditional behavior / interactivity",
+				"Added validation so that the form validates user input and provides helpful error messages when the user enters invalid information into the form fields"
 			],
 			"githubLink": "https://github.com/DevMo-13/interactive-form",
 			"mainImage": {
@@ -88,6 +102,16 @@
 				"JavaScript",
 				"HTML/CSS"
 			],
+			"achievements": [
+				"Using JavaScript, I created 2 JavaScript classes with specific properties and methods - I created a Game class for managing the game, and a Phrase class to help with creating an array of Phrase objects",
+				"My code is programmed to choose a random phrase, split the phrase into letters, and put those letters onto the gameboard",
+				"Each time the player guesses a letter, the program compares the letter the player has chosen with the random phrase (if the letter is in the phrase, the gameboard displays the chosen letters on the screen)",
+				"A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose)",
+				"If the player completes the phrase before they run out of guesses, I programmed a winning screen to appear",
+				"If the player guesses incorrectly five times, I programmed a losing screen to appear",
+				"A player can guess a letter only once - after they’ve guessed a letter, my programming disables that letter on the onscreen keyboard",
+				"I added functinoality in which a player can use their physical computer keyboard to enter guesses"
+			],
 			"githubLink": "https://github.com/DevMo-13/oop-game-show-app",
 			"mainImage": {
 				"path": "/proj4-main.png",
@@ -114,6 +138,13 @@
 				"Public API",
 				"JavaScript",
 				"HTML/CSS"
+			],
+			"achievements": [
+				"Requested a JSON object from the public API",
+				"Parsed the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location",
+				"Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address",
+				"Added a way to toggle back and forth between employees when the modal window is open",
+				"Added search functionality that filters the directory by name"
 			],
 			"githubLink": "https://github.com/DevMo-13/public-api-requests",
 			"mainImage": {
@@ -144,6 +175,15 @@
 				"JavaScript",
 				"HTML/CSS"
 			],
+			"achievements": [
+				"Create a JSON file to store all the data about the projects you've created",
+				"Use Pug to complete provided templates that utilize the JSON to generate the markup that is ultimately displayed in the browser",
+				"Linked the JSON with the Pug templates",
+				"Programmed routes to handle requests",
+				"Programmed the middleware to utilize static files like CSS",
+				"Set up error handling",
+				"Set up a server to serve the project"
+			],
 			"githubLink": "https://github.com/DevMo-13/static-node.js-and-express-site",
 			"mainImage": {
 				"path": "/proj6-main.png",
@@ -171,6 +211,17 @@
 				"Fetch API",
 				"JavaScript",
 				"HTML/CSS"
+			],
+			"achievements": [
+				"Used the Create React App tool to set up the initial project",
+				"Used JavaScript and JSX to build out the gallery components in a modular fashion",
+				"Utilized React Router to set up routes for three default topic pages and a search page",
+				"Managed state in a container component that passes data down to reusable stateless components",
+				"Programmed Axios to fetch data from the Flickr API, and the data was used to display images",
+				"Also added logic to handle search and various requirements of the project",
+				"Added a loading indicator that displays each time the app fetches new data",
+				"Programmed a friendly user message to tell the user there are no matches if no matches are found by the search",
+				"Included a 404-like error route that displays a friendly 404 error page when a URL does not match an existing route"
 			],
 			"githubLink": "https://github.com/DevMo-13/react-gallery-app",
 			"mainImage": {
@@ -202,6 +253,11 @@
 				"JavaScript",
 				"HTML/CSS"
 			],
+			"achievements": [
+				"Used Node.js and Express to set up routes and middleware",
+				"Configured the Sequelize ORM for data modeling, validation, and persistence",
+				"Utilized Pug to build out the views"
+			],
 			"githubLink": "https://github.com/DevMo-13/sql-library-manager",
 			"mainImage": {
 				"path": "/proj8-main.png",
@@ -231,6 +287,12 @@
 				"REST API",
 				"JavaScript",
 				"HTML/CSS"
+			],
+			"achievements": [
+				"Used REST API design, Node.js, and Express to create API routes",
+				"Configured the Sequelize ORM for data modeling, validation, and persistence",
+				"Utilized bcryptjs to hash user passwords",
+				"Set up permissions that require users to be signed in to make changes to database"
 			],
 			"githubLink": "https://github.com/DevMo-13/rest-api",
 			"mainImage": {
@@ -262,6 +324,18 @@
 				"REST API",
 				"JavaScript",
 				"HTML/CSS"
+			],
+			"achievements": [
+				"Used JavaScript and JSX to build out the components for the application in a modular fashion",
+				"Used React Router to set up routes",
+				"Configured protected routes that only allow authenticated users to access those pages",
+				"Managed global state by using the React Context API",
+				"Used the Fetch API to fetch data from my REST API",
+				"Utilized CORS to support cross-origin resource sharing between the REST API and the React app",
+				"Allowed users to sign up and used basic authentication to support users signing in",
+				"Programmed user-friendly messages to display when things go wrong",
+				"Set user credentials to persist using an HTTP cookie so that the user's authenticated state is maintained even if the application is reloaded or loaded into a new browser tab",
+				"Added functionality that redirects a user back to their previous screen after they successfully sign in"
 			],
 			"githubLink": "https://github.com/DevMo-13/full-stack-app-with-react-and-rest-api",
 			"mainImage": {
