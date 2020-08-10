@@ -29,15 +29,15 @@ module.exports = {
 			}
 		},
 		{
-            resolve: "gatsby-plugin-tidy",
+            resolve: 'gatsby-plugin-tidy',
             options: {
                 cleanPublic: true,
                 cleanCache: true,
                 removeHashes: true,
                 removeArtifacts: true,
                 noJsMap: true,
-                jsDir: "js",
-                cssDir: "css"
+                jsDir: 'js',
+                cssDir: 'css'
             }
         }
 	]
