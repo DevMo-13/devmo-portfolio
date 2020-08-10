@@ -140,7 +140,7 @@
 		{
 			"id": "5",
 			"name": "EMPLOYEE DIRECTORY",
-			"description": "Employee directory for a fictional company called Awesome Startup. ",
+			"description": "Employee directory for a fictional company called Awesome Startup.",
 			"technologies": [
 				"Public API",
 				"JavaScript",
