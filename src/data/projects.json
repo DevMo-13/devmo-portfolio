@@ -6,7 +6,8 @@
 			"description": "App that displays random quotes.",
 			"technologies": [
 				"JavaScript",
-				"HTML/CSS"
+				"HTML",
+				"CSS"
 			],
 			"achievements": [
 				"Built the array of quote objects to store the quotes",
@@ -39,7 +40,8 @@
 			"technologies": [
 				"Progressive Enhancement",
 				"JavaScript",
-				"HTML/CSS"
+				"HTML",
+				"CSS"
 			],
 			"achievements": [
 				"Utilized the principle of progressive enhancement to enhance usability of a web page displaying student entries",
@@ -71,7 +73,8 @@
 			"description": "Interactive online registration form for a fictional conference called FullStack Conf.",
 			"technologies": [
 				"JavaScript",
-				"HTML/CSS"
+				"HTML",
+				"CSS"
 			],
 			"achievements": [
 				"Programmed customized and conditional behavior / interactivity",
@@ -102,7 +105,8 @@
 			"technologies": [
 				"Object-Oriented Programming",
 				"JavaScript",
-				"HTML/CSS"
+				"HTML",
+				"CSS"
 			],
 			"achievements": [
 				"Used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player then tries to guess",
@@ -140,7 +144,8 @@
 			"technologies": [
 				"Public API",
 				"JavaScript",
-				"HTML/CSS"
+				"HTML",
+				"CSS"
 			],
 			"achievements": [
 				"Requested a JSON object from the public API (Random User Generator API) to grab information for 12 random “employees,” and used that data to build a prototype for an Awesome Startup employee directory",
@@ -176,7 +181,8 @@
 				"Express.js",
 				"Pug",
 				"JavaScript",
-				"HTML/CSS"
+				"HTML",
+				"CSS"
 			],
 			"achievements": [
 				"Utilized Node.js, Express, and Pug to create a portfolio site to showcase the first 5 projects in the techdegree",
@@ -215,7 +221,8 @@
 				"React",
 				"Fetch API",
 				"JavaScript",
-				"HTML/CSS"
+				"HTML",
+				"CSS"
 			],
 			"achievements": [
 				"Used the Create React App tool to set up the initial project",
@@ -256,7 +263,8 @@
 				"Sequelize",
 				"Pug",
 				"JavaScript",
-				"HTML/CSS"
+				"HTML",
+				"CSS"
 			],
 			"achievements": [
 				"Used Node.js and Express to set up routes and middleware",
@@ -292,7 +300,8 @@
 				"Sequelize",
 				"REST API",
 				"JavaScript",
-				"HTML/CSS"
+				"HTML",
+				"CSS"
 			],
 			"achievements": [
 				"Programmed an API that provides a way for users to administer a school database containing information about courses",
@@ -331,7 +340,8 @@
 				"Sequelize",
 				"REST API",
 				"JavaScript",
-				"HTML/CSS"
+				"HTML",
+				"CSS"
 			],
 			"achievements": [
 				"Programmed the full stack application to provide a way for users to administer the school database containing information about courses",
