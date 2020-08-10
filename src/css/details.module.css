@@ -38,7 +38,6 @@
 }
 
 .techDiv {
-	width: 750px;
 	display: flex;
 	justify-content: center;
 	margin: 0 auto;
@@ -109,4 +108,89 @@
 	box-shadow: 0 10px 35px rgba(0,0,0,.05), 0 10px 30px rgba(0,0,0,.2);
 }
 
-/* TO DO - make page responsive */
+@media (max-width: 850px) {
+	.navLinks {
+		font-size: 13px;
+		width: 150px;
+	}
+
+	.h1 {
+		font-size: 25px;
+		padding-top: 15px;
+		text-shadow: #94AFC9 1.5px 1.5px 1.5px;
+	}
+
+	.desc {
+		font-size: 15px;
+	}
+
+	.techDiv {
+		padding-bottom: 15px;
+		display: grid;
+		grid-template-columns: 150px 150px 150px;
+		grid-row-gap: 15px;
+	}
+
+	.imagesDiv {
+		padding: 15px;
+		grid-template-columns: 500px;
+		grid-template-rows: 500px 350px 350px 350px;
+		grid-row-gap: 15px;
+	}
+}
+
+@media (max-width: 550px) {
+	.h1 {
+		font-size: 20px;
+	}
+
+	.desc {
+		font-size: 13px;
+	}
+
+	.techDiv {
+		grid-template-columns: 150px 150px;
+	}
+
+	.techButton {
+		font-size: 11px;
+	}
+
+	.svg {
+		width: 70px;
+	}
+
+	.imagesDiv {
+		grid-template-columns: 350px;
+		grid-template-rows: 350px 275px 275px 275px;
+	}
+}
+
+@media (max-width: 400px) {
+	.navLinks {
+		font-size: 11px;
+		width: 105px;
+	}
+	
+	.h1 {
+		font-size: 17px;
+		text-shadow: #94AFC9 1px 1px 1px;
+	}
+
+	.desc {
+		font-size: 11px;
+	}
+
+	.techDiv {
+		grid-template-columns: 125px 125px;
+	}
+
+	.techButton {
+		font-size: 10px;
+	}
+
+	.imagesDiv {
+		grid-template-columns: 300px;
+		grid-template-rows: 300px 225px 225px 225px;
+	}
+}
