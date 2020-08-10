@@ -38,7 +38,6 @@
 			"name": "STUDENT LIST PAGINATOR",
 			"description": "Website of student entries with pagination.",
 			"technologies": [
-				"Progressive Enhancement",
 				"JavaScript",
 				"HTML",
 				"CSS"
@@ -103,7 +102,7 @@
 			"name": "PHRASE HUNTER GAME APP",
 			"description": "Browser-based word guessing game: Phrase Hunter.",
 			"technologies": [
-				"Object-Oriented Programming",
+				"OOP",
 				"JavaScript",
 				"HTML",
 				"CSS"
