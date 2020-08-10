@@ -3,7 +3,7 @@
 		{
 			"id": "1",
 			"name": "RANDOM QUOTE GENERATOR",
-			"description": "App that displays a random quote every 7.5 seconds and changes the background color of the page with each new qoute.",
+			"description": "App that displays random quotes.",
 			"technologies": [
 				"JavaScript",
 				"HTML/CSS"
@@ -68,7 +68,7 @@
 		{
 			"id": "3",
 			"name": "CONFERENCE REGISTRATION FORM",
-			"description": "Interactive online regesitration form for a fictional conference called FullStack Conf.",
+			"description": "Interactive online registration form for a fictional conference called FullStack Conf.",
 			"technologies": [
 				"JavaScript",
 				"HTML/CSS"
@@ -259,10 +259,10 @@
 				"HTML/CSS"
 			],
 			"achievements": [
-				"Web app includes pages to list, add, update, and delete books from the library's database",
 				"Used Node.js and Express to set up routes and middleware",
 				"Configured the Sequelize ORM for data modeling, validation, and persistence",
-				"Utilized Pug to build out the views"
+				"Utilized Pug to build out the views",
+				"Enabled functionality for user to list, add, update, and delete books from the library's database"
 			],
 			"githubLink": "https://github.com/DevMo-13/sql-library-manager",
 			"mainImage": {
@@ -285,7 +285,7 @@
 		{
 			"id": "9",
 			"name": "SCHOOL DATABASE - REST API",
-			"description": "School database REST that holds information about courses.",
+			"description": "School database that holds information about courses.",
 			"technologies": [
 				"Node.js",
 				"Express.js",
@@ -295,8 +295,8 @@
 				"HTML/CSS"
 			],
 			"achievements": [
-				"API provides a way for users to administer a school database containing information about courses",
-				"Users can interact with the database by retrieving a list of courses, as well as adding, updating, and deleting courses in the database",
+				"Programmed an API that provides a way for users to administer a school database containing information about courses",
+				"Enabled users to interact with the database by retrieving a list of courses, as well as adding, updating, and deleting courses in the database",
 				"Used REST API design, Node.js, and Express to create API routes",
 				"Configured the Sequelize ORM for data modeling, validation, and persistence",
 				"Utilized bcryptjs to hash user passwords",
@@ -323,7 +323,7 @@
 		{
 			"id": "10",
 			"name": "SCHOOL DB -  REACT AND REST API",
-			"description": "Full stack client app for the school database REST API.",
+			"description": "Full stack client app for the school database.",
 			"technologies": [
 				"React",
 				"Node.js",
@@ -334,8 +334,8 @@
 				"HTML/CSS"
 			],
 			"achievements": [
-				"The full stack application provides a way for users to administer the school database containing information about courses",
-				"Users can interact with the database by retrieving a list of courses, viewing details for a specific course, as well as creating, updating and deleting courses in the database",
+				"Programmed the full stack application to provide a way for users to administer the school database containing information about courses",
+				"Enabled users to interact with the database by retrieving a list of courses, viewing details for a specific course, as well as creating, updating and deleting courses in the database",
 				"Used JavaScript and JSX to build out the components for the application in a modular fashion",
 				"Used React Router to set up routes",
 				"Configured protected routes that only allow authenticated users to access those pages",
