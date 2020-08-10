@@ -45,9 +45,11 @@ export default function Details({ pageContext: { project} }) {
 				<div>
 					<h1 className={styles.h1}>{project.name}</h1>
 					<p className={styles.desc}>{project.description}</p>
-					<div className={styles.techDiv}>
-						{technology}
-					</div>
+				</div>
+				<div className={styles.techDiv}>
+					{technology}
+				</div>
+				<div className={styles.githubDiv}>
 					<a href={project.githubLink} target='_blank' rel='noreferrer'>
 						<svg className={styles.svg} version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'>
 							<path className={styles.st0} d='M512,257c0,120-84.1,220.5-196,247.5l-30.6-97.2h-58.8L197,504.5C85.1,477.5,0,377,0,257C0,116.3,115.3,0,256,0
@@ -65,8 +67,8 @@ export default function Details({ pageContext: { project} }) {
 								V124.7c18.3,0,36.3,2.7,54.6,7.5l2.1,0.3c0,0,0.6,0,2.1-0.9c51.9-31.5,50.1-21.3,64.2-25.8c0.3,3,14.1,31.8,2.7,65.7
 								C380.2,176,426.7,218.6,400.9,287.3z'/>
 						</svg>
-					</a>		
-				</div>
+					</a>
+				</div>		
 				<div className={styles.imagesDiv}>
 					<img className={styles.img} src={project.mainImage.path} alt={project.mainImage.alt}/>
 					<img className={styles.img} src={project.otherImage1.path} alt={project.otherImage1.alt}/>
