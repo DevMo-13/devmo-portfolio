@@ -1,11 +1,14 @@
 
 module.exports = {
 	siteMetadata: {
-		title: `Monique's Portfolio`,
+		title: `DevMo's Portfolio`,
 		author: `Monique Rico Cinatl`,
+		description: `Monique Cinatl's developer portfolio website.`,
 		url: `https://www.moniquecinatl.com`,
+		image: '/favicon.ico'
 	},
   	plugins: [
+		`gatsby-plugin-react-helmet`,
 		{
 			resolve: `gatsby-plugin-prefetch-google-fonts`,
 			options: {
