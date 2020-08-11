@@ -1,13 +1,28 @@
 
 import React from 'react';
-import styles from '../css/about.module.css'
+import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import styles from '../css/about.module.css';
 
 // Renders the About section of the index page.
 export default function About() {
+	// Queries a gatsby-image for the profile picture.
+	const query = useStaticQuery(graphql`
+		query {
+			file(relativePath: { eq: "profile-pic.jpg" }) {
+				childImageSharp {
+					fluid(maxWidth: 500, quality: 100) {
+						...GatsbyImageSharpFluid
+					}
+				}
+			}
+		}
+	`)
+
 	return (
 		<section className={styles.aboutSection}>
 			<div>
-				<img className={styles.img} src='profile-pic3.jpg' alt='headshot'/>
+				<Img fluid={query.file.childImageSharp.fluid} loading='eager' className={styles.img} alt='profile image' />
 			</div>
 			<div>
 				<h2 className={styles.h2}>Hi there! I'm Monique.</h2>
