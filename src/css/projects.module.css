@@ -52,23 +52,13 @@
 	position: relative;
 }
 
-.imgDiv .img {
-    transition: all 0.5s;
-    transform: scale(1);
-}
-
-.imgDiv:hover .img {
-	transform: scale(1.25);
-	opacity: 1.0;
-}
-
 .button {
 	background-color: #7F9F8F;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	opacity: 0;
+	opacity: 1;
 	border-style: solid;
 	border-color: #7F9F8F;
 	border-radius: 4px;
@@ -82,21 +72,40 @@
 	font-size: 13px;
 	text-align: center;
 	text-decoration: none;
-	opacity: 0;
-}
-
-.projDiv .link {
-    transition: all 0.5s;
-}
-
-.projDiv:hover .button {
 	opacity: 1;
 }
 
-.projDiv:hover .link {
-	opacity: 1;
-}
+@media (min-width: 1100px) {
+	.button {
+		opacity: 0;
+	}
+	
+	.link {
+		opacity: 0;
+	}
+	
+	.projDiv .link {
+		transition: all 0.5s;
+	}
+	
+	.projDiv:hover .button {
+		opacity: 1;
+	}
+	
+	.projDiv:hover .link {
+		opacity: 1;
+	}
 
+	.imgDiv .img {
+		transition: all 0.5s;
+		transform: scale(1);
+	}
+	
+	.imgDiv:hover .img {
+		transform: scale(1.25);
+		opacity: 1.0;
+	}
+}
 
 @media (max-width: 1400px) {
 	.ul {
