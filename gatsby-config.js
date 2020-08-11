@@ -7,6 +7,7 @@ module.exports = {
 		url: `https://www.moniquecinatl.com`,
 		image: '/favicon.ico'
 	},
+	pathPrefix: `/devmo-portfolio`,
   	plugins: [
 		`gatsby-plugin-react-helmet`,
 		{
