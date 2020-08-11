@@ -16,18 +16,18 @@ export default function Details({ pageContext: { project} }) {
 	// take the user to the last project. If the user is on any other project page,
 	// the user will be taken to the previous project's page.
 	if (projectId === 1) {
-		prevProject = <Link className={styles.navLinks} to={`/project-details/10`}>← Previous Project</Link>
+		prevProject = <li key='prev'><Link className={`${styles.navLinks} ${styles.prev}`} to={`/project-details/10`}>← Previous</Link></li>
 	} else {
-		prevProject = <Link className={styles.navLinks} to={`/project-details/${projectId - 1}`}>← Previous Project</Link>
+		prevProject = <li key='prev'><Link className={`${styles.navLinks} ${styles.prev}`} to={`/project-details/${projectId - 1}`}>← Previous</Link></li>
 	};
 
 	// If user is on the last project page, selecting to see the next project will
 	// take the user to the first project. If the user is on any other project page,
 	// the user will be taken to the next project's page.
 	if (projectId === 10) {
-		nextProject = <Link className={styles.navLinks} to={`/project-details/1`}>Next Project →</Link>
+		nextProject = <li key='next'><Link className={`${styles.navLinks} ${styles.next}`} to={`/project-details/1`}>Next →</Link></li>
 	} else {
-		nextProject = <Link className={styles.navLinks} to={`/project-details/${projectId + 1}`}>Next Project →</Link>
+		nextProject = <li key='next'><Link className={`${styles.navLinks} ${styles.next}`} to={`/project-details/${projectId + 1}`}>Next →</Link></li>
 	};
 
 	// Maps through technologies and renders each as a button.
@@ -41,11 +41,11 @@ export default function Details({ pageContext: { project} }) {
 			<SEO title='Projects' />
 			<div className='content'>
 				<main>
-					<nav className={styles.nav}>
+					<ul className={styles.nav}>
 						{prevProject}
-						<Link className={styles.navLinks} to='/'>Home</Link>
+						<li key='home'><Link className={styles.navLinks} to='/'>Home</Link></li>
 						{nextProject}
-					</nav>
+					</ul>
 					<div>
 						<h1 className={styles.h1}>{project.name}</h1>
 						<p className={styles.desc}>{project.description}</p>
