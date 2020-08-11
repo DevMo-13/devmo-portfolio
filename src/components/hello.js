@@ -1,6 +1,6 @@
 
 import React from 'react';
-import styles from '../css/hello.module.css'
+import styles from '../css/hello.module.css';
 
 // Renders the Hello section of the index page.
 export default function Hello() {

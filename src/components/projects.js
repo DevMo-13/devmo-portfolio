@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Project from './project'
+import Project from './project';
 import styles from '../css/projects.module.css';
 
 // Renders the Projects section of the index page.
