@@ -250,5 +250,5 @@ export default function Hello() {
 				</g>
 			</svg>
 		</section>
-	)
+	);
 }

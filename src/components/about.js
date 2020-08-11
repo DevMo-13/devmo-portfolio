@@ -19,5 +19,5 @@ export default function About() {
 				Take a look at the projects below to see what I built throughout my techdegree journey.</p>
 			</div>
 		</section>
-	)
+	);
 }

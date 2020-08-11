@@ -17,5 +17,5 @@ export default function Project({ id, name, mainImgData }) {
 				</div>
 			</li>
 		</div>
-	)
+	);
 }
