@@ -301,7 +301,7 @@ export default function NotFound() {
 						</div>
 						<div>
 							<h1 className={styles.h1}>Silly hooman, the page you're looking for does not exist!</h1>
-							<Link className={styles.home} to='/'>Home →</Link>
+							<Link className={styles.home} to='/'>← Home</Link>
 						</div>
 					</div>
 				</main>
