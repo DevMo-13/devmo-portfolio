@@ -7,7 +7,7 @@ export default function Footer() {
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.social}>
-				<a className='github' href='https://github.com/DevMo-13' target='_blank' rel='noreferrer'>
+				<a className='githubLink' href='https://github.com/DevMo-13' target='_blank' rel='noreferrer'>
 					<svg className={styles.svg} version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'>
 						<path d='M256,0C115.3,0,0,116.3,0,257c0,139.9,114.3,255,256,255c141.6,0,256-114.9,256-255C512,116.3,396.7,0,256,0z
 						M301,477.5c-14.4,3-29.7,4.5-45,4.5s-30.6-1.5-45-4.5v-70.2c0-16.8,4.5-22.8,10.5-30.9c3.1-3.5,4.9-6.6,18.6-27.3l-23.1-3.6
@@ -24,7 +24,7 @@ export default function Footer() {
 						C482,354.8,418.3,438.2,331,468.8z'/>
 					</svg>
 				</a>
-				<a className='linkedin' href='https://www.linkedin.com/in/moniquecinatl/' target='_blank' rel='noreferrer'>
+				<a className='linkedinLink' href='https://www.linkedin.com/in/moniquecinatl/' target='_blank' rel='noreferrer'>
 					<svg className={styles.svg} version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'>
 						<path d='M396.6,512c2.2,0,101.6,0,99.4,0c8.8,0,16-7.2,16-16c-7.5-167.6,39.3-344.5-135.2-344.5
 							c-33.6,0-60.3,11.5-79.6,26.6c0-31.2-33.7-13.9-111.4-18.6c-8.8,0-16,7.2-16,16c6.4,302.2-14.4,336.4,16,336.4h99.4
@@ -37,7 +37,7 @@ export default function Footer() {
 							C129,32,128.3,115.8,73.6,115.8z'/>
 					</svg>
 				</a>
-				<a className='treehouse' href='https://teamtreehouse.com/moniquecinatl' target='_blank' rel='noreferrer'>
+				<a className='treehouseLink' href='https://teamtreehouse.com/moniquecinatl' target='_blank' rel='noreferrer'>
 					<svg className={styles.svg} version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 452 492.4'>
 							<path d='M386.2,105.9c-14.7-8.3-38.2,5.1-52.4,29.8L308,180.6c-9.4,18.7-8.1,40.9,3.8,58l0.8,1.1
 								c12,17.2,28,33,33.3,38.7c3.1,3.3,5.5,7.4,6.8,12.1c4.4,15.6-4.7,31.8-20.3,36.1c-15.6,4.4-31.8-4.7-36.1-20.3
@@ -53,7 +53,7 @@ export default function Footer() {
 								c0-13.6-9.7-30.2-21.5-36.9C412.8,120.9,400.9,114.2,386.2,105.9z'/>
 					</svg>
 				</a>
-				<a className='twitter' href='https://twitter.com/moniquecinatl' target='_blank' rel='noreferrer'>
+				<a className='twitterLink' href='https://twitter.com/moniquecinatl' target='_blank' rel='noreferrer'>
 					<svg className={styles.svg} version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512' >
 						<path d='M512,103c-32.2,1.5-31.5,1.4-35.1,1.7l19.1-54.5c0,0-59.5,21.9-74.6,25.8c-39.6-35.6-98.6-37.2-140.7-11.3
 							c-34.5,21.2-53,57.6-46.8,100.2c-67.1-9.3-123.7-41.1-168.4-94.8l-14.1-17L40.7,72.5C27.4,97,23,125,28.3,151.3
@@ -68,7 +68,7 @@ export default function Footer() {
 							C447.4,140.5,443.7,145.5,439.2,151.5z'/>
 					</svg>	
 				</a>
-				<a className='email' href='mailto:moniquecinatl@gmail.com' target='_blank' rel='noreferrer'>
+				<a className='emailLink' href='mailto:moniquecinatl@gmail.com' target='_blank' rel='noreferrer'>
 					<svg className={styles.svg} version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'>
 						<path d='M467,61H45C20.2,61,0,81.2,0,106v300c0,24.7,20.1,45,45,45h422c24.7,0,45-20.1,45-45V106C512,81.3,491.9,61,467,61z
 							M460.8,91L257,294.8L51.4,91H460.8z M30,399.8V112.1l144.5,143.2L30,399.8z M51.2,421l144.6-144.6l50.7,50.2
