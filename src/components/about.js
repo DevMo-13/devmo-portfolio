@@ -9,10 +9,10 @@ export default function About() {
 	// Queries a gatsby-image for the profile picture.
 	const query = useStaticQuery(graphql`
 		query {
-			file(relativePath: { eq: "profile-pic.webp" }) {
+			file(relativePath: { eq: "profile-pic.jpg" }) {
 				childImageSharp {
 					fluid(maxWidth: 500, quality: 100) {
-						...GatsbyImageSharpFluid
+						...GatsbyImageSharpFluid_withWebp
 					}
 				}
 			}
