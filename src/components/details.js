@@ -6,7 +6,7 @@ import Footer from '../components/footer';
 import styles from '../css/details.module.css';
 
 // Renders each project's details on a unique project-details page.
-export default function Details({ pageContext: {project} }) {
+export default function Details({ pageContext: { project } }) {
 	const projectId = parseInt(project.id);
 	let prevProject;
 	let nextProject;
