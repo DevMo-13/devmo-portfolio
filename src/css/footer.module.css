@@ -2,7 +2,7 @@
 .footer {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: #B9CAC2;
+	background-color: #225588;
 }
 
 .social {
@@ -39,7 +39,7 @@
 	color: #FFFFFF;
 	font-size: 13px;
 	padding-bottom: 10px;
-	letter-spacing: .1em;
+	letter-spacing: .2em;
 }
 
 @media (max-width: 800px) {
