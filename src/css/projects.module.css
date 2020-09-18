@@ -33,6 +33,7 @@
 	font-size: 20px;
 	font-weight: lighter;
 	text-align: center;
+	letter-spacing: .05em;
 }
 
 .imgDiv {
@@ -68,7 +69,7 @@
 .link {
 	background-color: #5E8270;
 	color: white;
-	font-family: Poppins;
+	font-family: 'Poppins';
 	font-size: 13px;
 	text-align: center;
 	letter-spacing: .1em;

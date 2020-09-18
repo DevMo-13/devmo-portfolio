@@ -14,13 +14,16 @@ module.exports = {
 			resolve: `gatsby-plugin-prefetch-google-fonts`,
 			options: {
 				fonts: [
-				{
-					family: `Poppins`,
-					variants: [`400`, `Semi-bold 600`, `Bold 700`]
-				},
-				{
-					family: `Questrial`
-				},
+					{
+						family: `Poppins`,
+						variants: [`400`, `Semi-bold 600`, `Bold 700`]
+					},
+					{
+						family: `Questrial`
+					},
+					{
+						family: `Alex Brush`
+					},
 				],
 			}
 		},

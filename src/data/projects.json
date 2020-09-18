@@ -68,7 +68,7 @@
 		},
 		{
 			"id": "3",
-			"name": "CONFERENCE REGISTRATION FORM",
+			"name": "REGISTRATION FORM",
 			"description": "Interactive online registration form for a fictional conference called FullStack Conf.",
 			"technologies": [
 				"JavaScript",
@@ -330,7 +330,7 @@
 		},
 		{
 			"id": "10",
-			"name": "SCHOOL DB -  REACT AND REST API",
+			"name": "SCHOOL DB - FULL STACK APP",
 			"description": "Full stack client app for the school database.",
 			"technologies": [
 				"React",

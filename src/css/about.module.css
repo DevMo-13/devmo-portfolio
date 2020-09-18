@@ -29,9 +29,10 @@
 
 .p {
 	color: #FFFFFF;
-	font-size: 17px;
+	font-size: 18px;
 	text-align: center;
-	font-family: 'Poppins';
+	font-family: 'Questrial';
+	letter-spacing: .05em;
 	line-height: 1.5em;
 	width: 750px;
 	display: block;
