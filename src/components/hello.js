@@ -6,7 +6,7 @@ import styles from '../css/hello.module.css';
 export default function Hello() {
 	return (
 		<section className={styles.helloSection}>
-			<h1 className={styles.h1}>Monique&nbsp;Rico&nbsp;Cinatl</h1>
+			<h1 className={styles.h1}>Monique Rico Cinatl</h1>
 			<h2 className={styles.h2}>Developer • Creator • Collaborator</h2>
 			
 			<svg className={styles.svg} version='1.1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 576 220'>

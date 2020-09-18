@@ -69,10 +69,12 @@
 .link {
 	background-color: #5E8270;
 	color: white;
-	font-family: 'Poppins';
-	font-size: 13px;
-	text-align: center;
+	font-family: 'Questrial';
+	text-transform: lowercase;
+	font-weight: lighter;
 	letter-spacing: .1em;
+	font-size: 12px;
+	text-align: center;
 	text-decoration: none;
 	opacity: 1;
 }

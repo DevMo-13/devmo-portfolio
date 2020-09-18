@@ -11,6 +11,7 @@
 	text-transform: lowercase;
 	text-shadow: #94AFC9 2.2px 2.2px 2.2px;
 	margin: auto;
+	white-space: nowrap;
 }
 
 .h2 {
