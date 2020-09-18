@@ -12,6 +12,7 @@
 	text-shadow: #94AFC9 2.2px 2.2px 2.2px;
 	margin: auto;
 	white-space: nowrap;
+	padding: 5px 5px;
 }
 
 .h2 {
@@ -269,7 +270,7 @@
 	}
 
 	.h1 {
-		font-size: 15vw;
+		font-size: 13vw;
 	}
 
 	.h2 {
