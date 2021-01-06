@@ -77,7 +77,7 @@ export default function Footer() {
 				</a>
 			</div>
 			<div className={styles.copyright}>			
-				<p className={styles.p}>• HANDCRAFTED BY MONIQUE CINATL &copy; 2020 •</p>
+				<p className={styles.p}>• HANDCRAFTED BY MONIQUE CINATL &copy; 2021 •</p>
 			</div>
 		</footer>
 	);
