@@ -9,24 +9,8 @@ module.exports = {
 	},
 	pathPrefix: `/devmo-portfolio`,
   	plugins: [
+		`gatsby-plugin-preload-fonts`,
 		`gatsby-plugin-react-helmet`,
-		{
-			resolve: `gatsby-plugin-prefetch-google-fonts`,
-			options: {
-				fonts: [
-					{
-						family: `Poppins`,
-						variants: [`400`, `Semi-bold 600`, `Bold 700`]
-					},
-					{
-						family: `Questrial`
-					},
-					{
-						family: `Alex Brush`
-					},
-				],
-			}
-		},
 		`gatsby-transformer-json`,
 		{
 			resolve: `gatsby-source-filesystem`,
