@@ -2,7 +2,7 @@
 	"projects": [
 		{
 			"id": "1",
-			"name": "RANDOM QUOTE GENERATOR",
+			"name": "Random Quote Generator",
 			"description": "App that displays random quotes.",
 			"technologies": [
 				"JavaScript",
@@ -35,7 +35,7 @@
 		},
 		{
 			"id": "2",
-			"name": "STUDENT LIST PAGINATOR",
+			"name": "Student List Paginator",
 			"description": "Website of student entries with pagination.",
 			"technologies": [
 				"JavaScript",
@@ -68,7 +68,7 @@
 		},
 		{
 			"id": "3",
-			"name": "REGISTRATION FORM",
+			"name": "Registration Form",
 			"description": "Interactive online registration form for a fictional conference called FullStack Conf.",
 			"technologies": [
 				"JavaScript",
@@ -99,7 +99,7 @@
 		},
 		{
 			"id": "4",
-			"name": "PHRASE HUNTER GAME APP",
+			"name": "Phrase Hunter Game App",
 			"description": "Browser-based word guessing game: Phrase Hunter.",
 			"technologies": [
 				"OOP",
@@ -138,7 +138,7 @@
 		},
 		{
 			"id": "5",
-			"name": "EMPLOYEE DIRECTORY",
+			"name": "Employee Directory",
 			"description": "Employee directory for a fictional company called Awesome Startup.",
 			"technologies": [
 				"Public API",
@@ -173,7 +173,7 @@
 		},
 		{
 			"id": "6",
-			"name": "TREEHOUSE PORTFOLIO SITE",
+			"name": "Treehouse Portfolio Site",
 			"description": "Portfolio site to showcase projects in the Treehouse techdegree.",
 			"technologies": [
 				"Node.js",
@@ -214,7 +214,7 @@
 		},
 		{
 			"id": "7",
-			"name": "REACT GALLERY APP",
+			"name": "React Gallery App",
 			"description": "Image gallery search app.",
 			"technologies": [
 				"React",
@@ -254,7 +254,7 @@
 		},
 		{
 			"id": "8",
-			"name": "LIBRARY DATABASE MANAGER",
+			"name": "Library Database Manager",
 			"description": "Dynamic web application that manages a library's collection of books.",
 			"technologies": [
 				"Node.js",
@@ -291,7 +291,7 @@
 		},
 		{
 			"id": "9",
-			"name": "SCHOOL DATABASE - REST API",
+			"name": "School Database - REST API",
 			"description": "School database that holds information about courses.",
 			"technologies": [
 				"Node.js",
@@ -330,7 +330,7 @@
 		},
 		{
 			"id": "10",
-			"name": "SCHOOL DB - FULL STACK APP",
+			"name": "School DB - Full Stack App",
 			"description": "Full stack client app for the school database.",
 			"technologies": [
 				"React",

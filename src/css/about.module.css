@@ -17,10 +17,10 @@
 	font-size: 30px;
 	font-weight: lighter;
 	text-align: center;
-	font-family: 'Questrial';
+	font-family: 'Montserrat';
 	text-transform: uppercase;
 	color: #FFFFFF;
-	letter-spacing: .1em;
+	letter-spacing: .05em;
 	padding: 1em 2em 1em 2em;
 	margin-top: 0;
 	display: block;
@@ -31,7 +31,7 @@
 	color: #FFFFFF;
 	font-size: 18px;
 	text-align: center;
-	font-family: 'Questrial';
+	font-family: 'Montserrat';
 	letter-spacing: .05em;
 	line-height: 1.5em;
 	width: 750px;

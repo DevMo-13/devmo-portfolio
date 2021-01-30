@@ -29,7 +29,7 @@ export default function About() {
 				<p className={styles.p}>I am a full stack web developer with 7+ years 
 				of experience working in higher education. I am eager to bring my strong organization and 
 				communication skills, the ability to effectively problem solve and troubleshoot issues, and a 
-				demonstrated drive to succeed into a new career in tech.<br/><br/>I am a recent Treehouse Full 
+				demonstrated drive to succeed into a new career in tech.<br/><br/>I am a Treehouse Full 
 				Stack JavaScript techdegree grad, and I am looking forward to a lifetime of continued learning. 
 				Take a look at the projects below to see what I built throughout my techdegree journey.</p>
 			</div>
